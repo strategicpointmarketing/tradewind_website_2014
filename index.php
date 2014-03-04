@@ -14,13 +14,13 @@
 
 	<main role="main">
 
-		<!-- <aside class="js-slider">
+		<aside class="js-slider">
 			<ul class="slides">
 				<li><img src="http://placehold.it/400x400" alt=""></li>
 				<li><img src="http://placehold.it/400x400" alt=""></li>
 				<li><img src="http://placehold.it/400x400" alt=""></li>
 			</ul>
-		</aside> -->
+		</aside>
 		
 		<section class="tabbed-nav--container">
 			<div class="wrapper">
