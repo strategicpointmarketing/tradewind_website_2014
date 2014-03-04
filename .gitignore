@@ -1,0 +1,6 @@
+# Build System #
+node_modules/
+
+#Compiled Source #
+templates/leaf-base/resource/c/css
+templates/leaf-base/resources/c/css/global.css
