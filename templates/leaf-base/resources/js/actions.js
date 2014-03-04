@@ -45,7 +45,7 @@ $(document).ready(function() {
         config: {
             targetElems: $(".js-slider"),
             pluginOptions: {
-                "controlNav": false,
+                "controlNav": true,
                 "directionNav": false
             }
         },

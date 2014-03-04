@@ -107,13 +107,14 @@ html[xmlns] .slides {
 	background-position: center center;
 
 	// Mixins
-	.spacing-vertical(padding,135);
+	.spacing-shorthand(padding,top,185);
+	.spacing-shorthand(padding,bottom,75);
 }
 
 .flex-slide {
 
 	&--1 {
-		background-image:url("@{base-path-images}slides/swingset-warehouse-hero.jpg");
+		background-image:url("@{base-path-images}slides/slide1.jpg");
 	}
 
 	&--2 {
@@ -123,4 +124,14 @@ html[xmlns] .slides {
 	&--3 {
 		background-image:url("http://placeimg.com/1440/536/nature");
 	}
+}
+
+
+// Captions 
+
+[class*='caption'] {
+	@5px: (1em * (5 / @base-text-size));
+
+	border-left: solid 9px @client-color-1;
+	padding-left: @5px;
 }

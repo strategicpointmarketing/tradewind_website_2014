@@ -14,9 +14,19 @@
 
 	<main role="main">
 
-		<aside class="js-slider">
+		<aside class="js-slider relative">
 			<ul class="slides">
 				<li class="flex-slide--1">
+					<div class="wrapper align-left">
+						<h3 class="caption__left great-text semibold white">Elegance Redefined.</h3>
+					</div>					
+				</li>
+				<li class="flex-slide--2">
+					<div class="wrapper align-left">
+						<h3 class="caption__left">Elegance Redefined.</h3>
+					</div>					
+				</li>
+				<li class="flex-slide--3">
 					<div class="wrapper align-left">
 						<h3 class="caption__left">Elegance Redefined.</h3>
 					</div>					

@@ -42,10 +42,10 @@ Example 2: 	gd-quarter: [prefix] - [whole word representation]
   border: 5px solid #ffffff;
 }
 .swatch-1 {
-  background-color: #3399ff;
+  background-color: #b22828;
 }
 .swatch-2 {
-  background-color: #80bfff;
+  background-color: #403d38;
 }
 .swatch-3 {
   background-color: #0073e5;
@@ -448,6 +448,10 @@ Markup Examples:
 <p class="minion-text">The cow jumped over the moon</p>
 
 */
+.great-text {
+  font-size: 48px;
+  font-size: 3rem;
+}
 .canon-text {
   font-size: 32px;
   font-size: 2rem;
@@ -573,6 +577,34 @@ Paragraph Defaults
 */
 p {
   line-height: 1.5em;
+}
+/*
+
+Font Weight
+
+*/
+.thin {
+  font-weight: 100;
+}
+.normal {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+/* 
+
+Colors 
+
+*/
+.white {
+  color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -740,17 +772,21 @@ html[xmlns] .slides {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-top: 8.4375em;
-  padding-bottom: 8.4375em;
+  padding-top: 11.5625em;
+  padding-bottom: 4.6875em;
 }
 .flex-slide--1 {
-  background-image: url("/templates/leaf-base/resources/images//slides/swingset-warehouse-hero.jpg");
+  background-image: url("/templates/leaf-base/resources/images/slides/slide1.jpg");
 }
 .flex-slide--2 {
   background-image: url("http://placeimg.com/1440/536/nature");
 }
 .flex-slide--3 {
   background-image: url("http://placeimg.com/1440/536/nature");
+}
+[class*='caption'] {
+  border-left: solid 9px #b22828;
+  padding-left: 0.3125em;
 }
 /*
 
