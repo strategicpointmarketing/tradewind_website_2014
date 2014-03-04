@@ -44,8 +44,9 @@ $(document).ready(function() {
     homeSlider = {
         config: {
             targetElems: $(".js-slider"),
-            pluginOption: {
-
+            pluginOptions: {
+                "controlNav": false,
+                "directionNav": false
             }
         },
 
@@ -62,7 +63,9 @@ $(document).ready(function() {
         },
 
         callSlider: function() {
-            homeSlider.config.targetElems.flexslider();
+            var context = homeSlider.config;
+
+            context.targetElems.flexslider( context.pluginOptions );
         }
     };
 
