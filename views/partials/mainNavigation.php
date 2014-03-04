@@ -1,11 +1,13 @@
 <nav class="main-nav">
 	<div class="wrapper">
-		<ul class="unstyled">
-			<li><a href="#">Home</a></li>
+		<a href="/"><img class="float-left mtxs mrxs" src="images/tradewind-logo.png"></a>
+		<ul class="unstyled mtn">
+			<li><a href="/">Home</a></li>
 			<li><a href="#">Architectural Center</a></li>
-			<li><a href="#">Products</a></li>
 			<li><a href="#">Gallery</a></li>
-			<li><a href="#">About Us</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Windows</a></li>
+			<li><a href="#">Doors</a></li>
 		</ul>
 	</div>
 </nav>

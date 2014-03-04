@@ -16,7 +16,8 @@
 }
 
 // Main Navigation
-.main-nav {
+.main-nav {	
+	border-bottom: solid 1px @light-grey;
 
 	li {
 		display: inline-block;
@@ -24,7 +25,7 @@
 
 	li a {
 		display: block;
-		padding: 50px 15px;
+		padding: 30px 15px;
 		color: @black;
 
 		// Mixins
@@ -35,6 +36,20 @@
 			color: @dark-grey;
 		}
 	}
+}
+
+.sticky-nav {
+	width:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:555;
+	background:fade(@white,98%);
+	border-top: 0;
+}
+
+.footer-nav {
+	line-height:1.75em;
 }
 
 // Tabby Styles
@@ -54,12 +69,12 @@
 }
 .tabbed-nav--item {
 	// Variables
-	@30px: 1em * (30 / @base-text-size);
+	@20px: 1em * (20 / @base-text-size);
 
 	// Structure
 	display: table-cell;
-	padding-top: @30px;
-	padding-bottom: @30px;
+	padding-top: @20px;
+	padding-bottom: @20px;
 
 	// Pretty
 	color: @white;
@@ -67,6 +82,12 @@
 	text-align: center;
 	vertical-align: middle;
 	text-transform: uppercase;
+
+	&:first-letter {
+
+		//Mixins
+		.primer-text;
+	}
 
 	&:hover,
 	&:focus,
@@ -85,4 +106,10 @@
 			border-top: 10px solid @red;
 		}
 	}
+}
+
+
+.border-divider {
+	border-top: solid 1px @light-grey;
+	border-bottom: solid 1px @light-grey;
 }

@@ -107,7 +107,7 @@ html[xmlns] .slides {
 	background-position: center center;
 
 	// Mixins
-	.spacing-shorthand(padding,top,185);
+	.spacing-shorthand(padding,top,375);
 	.spacing-shorthand(padding,bottom,75);
 }
 
@@ -118,11 +118,11 @@ html[xmlns] .slides {
 	}
 
 	&--2 {
-		background-image:url("http://placeimg.com/1440/536/nature");
+		background-image:url("@{base-path-images}slides/slide2.jpg");
 	}
 
 	&--3 {
-		background-image:url("http://placeimg.com/1440/536/nature");
+		background-image:url("@{base-path-images}slides/slide3.jpg");
 	}
 }
 
@@ -130,8 +130,19 @@ html[xmlns] .slides {
 // Captions 
 
 [class*='caption'] {
-	@5px: (1em * (5 / @base-text-size));
+	@15px: (1em * (15 / @base-text-size));
 
 	border-left: solid 9px @client-color-1;
-	padding-left: @5px;
+	padding-left: @15px;
+}
+
+.caption {
+
+	&__left {
+		.float-left;
+	}
+
+	&__right {
+		.float-right;
+	}
 }

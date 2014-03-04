@@ -74,6 +74,7 @@ manageable.
 .secondary-heading {
 	color: @secondary-heading-color;
 	font-family: @secondary-heading-font;
+	font-weight:@medium-weight;
 }
 
 // Tertiary Heading
@@ -158,6 +159,8 @@ html,
 body {
 	font-size: @body-percentage;
 	font-family: @primary-font-family;
+	color: @primary-text-color;
+	background: @silver;
 }
 
 /*
@@ -200,4 +203,23 @@ Colors
 
 .white {
 	color: @white;
+}
+
+.primary-color {
+	color: @client-color-1;
+}
+
+
+/*
+
+Transforms
+
+*/
+
+.uppercase {
+	text-transform:uppercase;
+}
+
+.capitalize {
+	text-transform:capitalize;
 }

@@ -1,4 +1,17 @@
 $(document).ready(function() {
+
+    $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).scrollTop() > 170) {
+      $('.main-nav').addClass('sticky-nav');
+    }
+    if ($(window).scrollTop() < 171) {
+      $('.main-nav').removeClass('sticky-nav');
+    }
+  });
     
     windowScroll = {
         config: {
@@ -46,7 +59,8 @@ $(document).ready(function() {
             targetElems: $(".js-slider"),
             pluginOptions: {
                 "controlNav": true,
-                "directionNav": false
+                "directionNav": false,
+                "slideshowSpeed": 12000,  
             }
         },
 
