@@ -57,6 +57,8 @@ $(document).ready(function() {
                 $.get("/templates/leaf-base/resources/js/jquery.flexslider.js")
                     .done(function() {
                         homeSlider.callSlider();
+                    }).fail(function() {
+                        config.targetElems.hide();
                     });
             }
 
