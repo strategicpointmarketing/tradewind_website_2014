@@ -43,16 +43,20 @@ $(document).ready(function() {
 
     homeSlider = {
         config: {
-            targetElems: "js-slider"
+            targetElems: $(".js-slider"),
+            pluginOption: {
+
+            }
         },
 
         init: function() {
             var config = homeSlider.config;
 
             if ( config.targetElems.length ) {
-                $.get("/templates/leaf-base/resources/js/jquery.flexslider.js");
-
-                homeSlider.callSlider();
+                $.get("/templates/leaf-base/resources/js/jquery.flexslider.js")
+                    .done(function() {
+                        homeSlider.callSlider();
+                    });
             }
 
         },
