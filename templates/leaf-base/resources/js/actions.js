@@ -41,7 +41,29 @@ $(document).ready(function() {
         }
     };
 
+    homeSlider = {
+        config: {
+            targetElems: "js-slider"
+        },
+
+        init: function() {
+            var config = homeSlider.config;
+
+            if ( config.targetElems.length ) {
+                $.get("/templates/leaf-base/resources/js/jquery.flexslider.js");
+
+                homeSlider.callSlider();
+            }
+
+        },
+
+        callSlider: function() {
+            homeSlider.config.targetElems.flexslider();
+        }
+    };
+
     // Call the script
+    homeSlider.init();
     windowScroll.init();
 
 });

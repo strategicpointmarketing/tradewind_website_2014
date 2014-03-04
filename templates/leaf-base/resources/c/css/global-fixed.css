@@ -461,7 +461,7 @@ manageable.
   font-family: "Museo Slab 700", Helvetica, Arial, Verdana, serif;
 }
 .secondary-heading {
-  color: #595959;
+  color: #403d38;
   font-family: "Museo Slab 700", Helvetica, Arial, Verdana, serif;
 }
 .tertiary-heading {
@@ -545,6 +545,9 @@ Paragraph Defaults
 p {
   line-height: 1.5em;
 }
+a {
+  text-decoration: none;
+}
 .button {
   width: auto;
   height: auto;
@@ -564,7 +567,7 @@ p {
   padding: 0.625em 0.9375em;
   background-color: #3399ff;
   border: 0.0625em solid #a6a6a6;
-  color: #595959;
+  color: #403d38;
   display: inline-block;
   font-size: 16px;
   font-size: 1rem;
@@ -842,6 +845,60 @@ body:hover .simple-reveal-container.is-current button {
   width: 92%;
   margin-left: auto;
   margin-right: auto;
+}
+.main-nav li {
+  display: inline-block;
+}
+.main-nav li a {
+  display: block;
+  padding: 50px 15px;
+  color: #000000;
+  font-size: 18px;
+  font-size: 1.125rem;
+}
+.main-nav li a:hover,
+.main-nav li a:focus {
+  color: #403d38;
+}
+.tabbed-nav--container {
+  background-color: #403d38;
+  border-top: 2px solid #ffffff;
+}
+.tabbed-nav--interior {
+  width: 100%;
+  display: table;
+  border-left: 2px solid #ffffff;
+}
+.tabbed-nav--row {
+  display: table-row;
+}
+.tabbed-nav--item {
+  display: table-cell;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+  color: #ffffff;
+  border-right: 2px solid #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+.tabbed-nav--item:hover,
+.tabbed-nav--item:focus,
+.tabbed-nav--item.is-current {
+  position: relative;
+  background-color: #b22828;
+}
+.tabbed-nav--item:hover:after,
+.tabbed-nav--item:focus:after,
+.tabbed-nav--item.is-current:after {
+  content: "";
+  margin-left: -10px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #b22828;
 }
 /*
 
@@ -1227,7 +1284,7 @@ body {
 }
 .wrapper {
   width: 92%;
-  max-width: 1140px;
+  max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
 }

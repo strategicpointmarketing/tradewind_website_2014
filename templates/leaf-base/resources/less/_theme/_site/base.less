@@ -3,6 +3,7 @@
 @import "@{base-path-less}_theme/_type/t-font-face.less";
 @import "@{base-path-less}_theme/_type/t-font-face-applied.less";
 @import "@{base-path-less}_theme/_type/t-type.less";
+@import "@{base-path-less}_theme/_interactive/links.less";
 @import "@{base-path-less}_theme/_interactive/t-buttons.less";
 @import "@{base-path-less}_theme/_helpers/t-presentational.less";
 @import "@{base-path-less}_theme/_layout/_grid/t-grid-base.less";
@@ -11,4 +12,76 @@
 	width: 92%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+// Main Navigation
+.main-nav {
+
+	li {
+		display: inline-block;
+	}
+
+	li a {
+		display: block;
+		padding: 50px 15px;
+		color: @black;
+
+		// Mixins
+		.size-for-font(@primer-text-size);
+
+		&:hover,
+		&:focus {
+			color: @dark-grey;
+		}
+	}
+}
+
+// Tabby Styles
+
+// Tabbed Navigation
+.tabbed-nav--container {
+	background-color: @dark-grey;
+	border-top: 2px solid @white;
+}
+.tabbed-nav--interior {
+	width: 100%;
+	display: table;
+	border-left: 2px solid @white;
+}
+.tabbed-nav--row {
+	display: table-row;
+}
+.tabbed-nav--item {
+	// Variables
+	@30px: 1em * (30 / @base-text-size);
+
+	// Structure
+	display: table-cell;
+	padding-top: @30px;
+	padding-bottom: @30px;
+
+	// Pretty
+	color: @white;
+	border-right: 2px solid @white;
+	text-align: center;
+	vertical-align: middle;
+	text-transform: uppercase;
+
+	&:hover,
+	&:focus,
+	&.is-current {
+		position: relative;
+		background-color: @red;
+
+		&:after {
+			content: "";
+			margin-left: -10px;
+			position: absolute;
+			top: 100%;
+			left: 50%;
+			border-left: 10px solid transparent;
+			border-right: 10px solid transparent;
+			border-top: 10px solid @red;
+		}
+	}
 }
