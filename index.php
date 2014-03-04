@@ -14,13 +14,15 @@
 
 	<main role="main">
 
-		<!-- <aside class="js-slider">
+		<aside class="js-slider">
 			<ul class="slides">
-				<li><img src="http://placehold.it/400x400" alt=""></li>
-				<li><img src="http://placehold.it/400x400" alt=""></li>
-				<li><img src="http://placehold.it/400x400" alt=""></li>
+				<li class="flex-slide--1">
+					<div class="wrapper align-left">
+						<h3 class="caption__left">Elegance Redefined.</h3>
+					</div>					
+				</li>
 			</ul>
-		</aside> -->
+		</aside>
 		
 		<section class="tabbed-nav--container">
 			<div class="wrapper">

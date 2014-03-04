@@ -659,6 +659,99 @@ a {
   font-size: 24px;
   font-size: 1.5rem;
 }
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus {
+  outline: none;
+}
+.slides,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.flexslider .slides {
+  zoom: 1;
+}
+.slides:after {
+  content: "\0020";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+html[xmlns] .slides {
+  display: block;
+}
+* html .slides {
+  height: 1%;
+}
+.no-js .slides > li:first-child {
+  display: block;
+}
+.flexslider {
+  margin: 0;
+  padding: 0;
+}
+.flexslider .slides > li {
+  display: none;
+  -webkit-backface-visibility: hidden;
+}
+.flexslider .slides img {
+  width: 100%;
+  display: block;
+}
+.flex-control-nav {
+  width: 100%;
+  position: absolute;
+  z-index: 3;
+  bottom: 2%;
+  text-align: center;
+}
+.flex-control-nav li {
+  margin: 0 6px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.flex-control-paging li a {
+  width: 11px;
+  height: 11px;
+  display: block;
+  background: #999999;
+  cursor: pointer;
+  text-indent: -9999px;
+  -webkit-border-radius: 50;
+  -moz-border-radius: 50;
+  -o-border-radius: 50;
+  border-radius: 50;
+}
+.flex-control-paging li a:hover {
+  background: #403d38;
+}
+.flex-control-paging li a.flex-active {
+  background: #ffffff;
+}
+[class*='flex-slide'] {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 8.4375em;
+  padding-bottom: 8.4375em;
+}
+.flex-slide--1 {
+  background-image: url("/templates/leaf-base/resources/images//slides/swingset-warehouse-hero.jpg");
+}
+.flex-slide--2 {
+  background-image: url("http://placeimg.com/1440/536/nature");
+}
+.flex-slide--3 {
+  background-image: url("http://placeimg.com/1440/536/nature");
+}
 /*
 
 Text Align
