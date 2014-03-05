@@ -1,17 +1,6 @@
 $(document).ready(function() {
 
-    $(window).scroll(function () {
-      //if you hard code, then use console
-      //.log to determine when you want the 
-      //nav bar to stick.  
-      console.log($(window).scrollTop())
-    if ($(window).scrollTop() > 170) {
-      $('.main-nav').addClass('sticky-nav');
-    }
-    if ($(window).scrollTop() < 171) {
-      $('.main-nav').removeClass('sticky-nav');
-    }
-  });
+    $("body").addClass('js');
     
     windowScroll = {
         config: {
@@ -60,7 +49,7 @@ $(document).ready(function() {
             pluginOptions: {
                 "controlNav": true,
                 "directionNav": false,
-                "slideshowSpeed": 12000,  
+                "slideshowSpeed": 12000
             }
         },
 
@@ -85,8 +74,55 @@ $(document).ready(function() {
         }
     };
 
+    tabbedWidget = {
+        config: {
+            targetElems: $(".tabs"),
+            currentClass: "is-current"
+        },
+
+        init: function() {
+            var context = this.config,
+                revealNavItem = context.targetElems.find("[data-reveal]");
+
+            if ( context.targetElems.length ) {
+
+                revealNavItem.on("click", function( e ) {
+                    tabbedWidget.revealTab.call($(this), revealNavItem);
+                    e.preventDefault();
+                });
+
+            }
+        },
+
+        revealTab: function( item ) {
+            var thisButton = $(this),
+                thisData = thisButton.data("reveal"),
+                context = tabbedWidget.config,
+                tab = context.targetElems.find(".tab");
+
+            // Handles the classes on the navigation
+
+            if ( !thisButton.hasClass( context.currentClass ) ) {
+                // Remove is-current class from nav item
+                item.removeClass( context.currentClass );
+
+                // Add is-current class to item clicked
+                thisButton.addClass( context.currentClass );
+            }
+
+            // Handles Revealing Tabs
+            if ( tab.hasClass( context.currentClass ) ) {
+                tab.removeClass( context.currentClass );
+            }
+
+            context.targetElems.find("#" + thisData).addClass( context.currentClass );
+
+        }
+    };
+
     // Call the script
     homeSlider.init();
     windowScroll.init();
+    tabbedWidget.init();
 
 });

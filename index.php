@@ -12,67 +12,163 @@
 
 	</header>
 
-	<main role="main">
+	<main class="nav-compensation" role="main">
 
 		<aside class="js-slider relative">
 			<ul class="slides">
 				<li class="flex-slide--1">
 					<div class="wrapper">
 						<div class="caption__left">
-							<h3 class="great-text semibold white mtn">Elegance Redefined.</h3>
-							<h4 class="paragon-text thin white mtn">European Style. Timeless Quality.</h3>
+							<h3 class="great-text semibold white-text mtn">Elegance Redefined.</h3>
+							<h4 class="paragon-text thin white-text mtn">European Style. Timeless Quality.</h3>
 						</div>
 					</div>					
 				</li>
 				<li class="flex-slide--2">
 					<div class="wrapper">
 						<div class="caption__left">
-							<h3 class="great-text semibold white mtn">Effortless Adaptation.</h3>
-							<h4 class="paragon-text thin white mtn">Beautiful Architecture In Any Environment.</h3>
+							<h3 class="great-text semibold white-text mtn">Effortless Adaptation.</h3>
+							<h4 class="paragon-text thin white-text mtn">Beautiful Architecture In Any Environment.</h3>
 						</div>
 					</div>						
 				</li>
 				<li class="flex-slide--3">
 					<div class="wrapper">
 						<div class="caption__left">
-							<h3 class="great-text semibold white mtn">Precise Integration.</h3>
-							<h4 class="paragon-text thin white mtn">Unity of Structure, Simplicity, And Style.</h3>
+							<h3 class="great-text semibold white-text mtn">Precise Integration.</h3>
+							<h4 class="paragon-text thin white-text mtn">Unity of Structure, Simplicity, And Style.</h3>
 						</div>
 					</div>						
 				</li>
 			</ul>
 		</aside>
 		
-		<section class="tabbed-nav--container">
-			<div class="wrapper">
-				<div class="tabbed-nav--interior">
-					<div class="tabbed-nav--row">
-						<a class="tabbed-nav--item" href="#">Undefined I</a>
-						<a class="tabbed-nav--item" href="#">Minimal Frame</a>
-						<a class="tabbed-nav--item" href="subpage.php">Custom Wood</a>
-						<a class="tabbed-nav--item" href="#">Elite Aluminum</a>
-						<a class="tabbed-nav--item" href="#">Performance PVC</a>
-						<a class="tabbed-nav--item" href="#">Undefined II</a>
+		<div class="tabs">
+			
+			<section class="tabbed-nav--container">
+				<div class="wrapper">
+					<div class="tabbed-nav--interior">
+						<div class="tabbed-nav--row">
+							<a data-reveal="tab1" class="is-current tabbed-nav--item" href="#">Undefined I</a>
+							<a data-reveal="tab2" class="tabbed-nav--item" href="#">Minimal Frame</a>
+							<a data-reveal="tab3" class="tabbed-nav--item" href="subpage.php">Custom Wood</a>
+							<a data-reveal="tab4" class="tabbed-nav--item" href="#">Elite Aluminum</a>
+							<a data-reveal="tab5" class="tabbed-nav--item" href="#">Performance PVC</a>
+							<a data-reveal="tab6" class="tabbed-nav--item" href="#">Undefined II</a>
+						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
+			
+			<!-- Tab 1 -->
+			<section id="tab1" class="tab is-current tabbed-content--container">
+				<div class="wrapper">
+					<div class="tabbed-content--body gd-row inner-content">
+						<div class="gd-half gd-columns">
+							<img class="prs" src="http://placehold.it/478x336">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="primary-heading semibold uppercase paragon-text">Undefined I</h3>
+							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<a class="button special" href="#">Learn More</a>
+						</div>
 
-		<section class="tabbed-content--container">
-			<div class="wrapper">
-				<div class="tabbed-content--body gd-row inner-content">
-					<div class="gd-half gd-columns">
-						<img class="prs" src="images/minimal-frame.jpg">
 					</div>
-					<div class="gd-half gd-columns">
-						<h3 class="primary-heading semibold uppercase paragon-text">Minimal Frame</h3>
-						<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.
-</p>					<a class="button special" href="#">Learn More</a>
-					</div>
-
 				</div>
-			</div>
-		</section>
+			</section>
+			<!-- End Tab 1 -->
+
+			<!-- Tab 2 -->
+			<section id="tab2" class="tab tabbed-content--container">
+				<div class="wrapper">
+					<div class="tabbed-content--body gd-row inner-content">
+						<div class="gd-half gd-columns">
+							<img class="prs" src="images/minimal-frame.jpg">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="primary-heading semibold uppercase paragon-text">Minimal Frame</h3>
+							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<a class="button special" href="#">Learn More</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- End Tab 2 -->
+
+			<!-- Tab 3 -->
+			<section id="tab3" class="tab tabbed-content--container">
+				<div class="wrapper">
+					<div class="tabbed-content--body gd-row inner-content">
+						<div class="gd-half gd-columns">
+							<img class="prs" src="http://placehold.it/478x336">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="primary-heading semibold uppercase paragon-text">Custom Wood</h3>
+							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<a class="button special" href="#">Learn More</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- End Tab 3 -->
+
+			<!-- Tab 4 -->
+			<section id="tab4" class="tab tabbed-content--container">
+				<div class="wrapper">
+					<div class="tabbed-content--body gd-row inner-content">
+						<div class="gd-half gd-columns">
+							<img class="prs" src="http://placehold.it/478x336">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="primary-heading semibold uppercase paragon-text">Elite Aluminum</h3>
+							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<a class="button special" href="#">Learn More</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- End Tab 4 -->
+
+			<!-- Tab 5 -->
+			<section id="tab5" class="tab tabbed-content--container">
+				<div class="wrapper">
+					<div class="tabbed-content--body gd-row inner-content">
+						<div class="gd-half gd-columns">
+							<img class="prs" src="http://placehold.it/478x336">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="primary-heading semibold uppercase paragon-text">Performance PVC</h3>
+							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<a class="button special" href="#">Learn More</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- End Tab 5 -->
+
+			<!-- Tab 6 -->
+			<section id="tab6" class="tab tabbed-content--container">
+				<div class="wrapper">
+					<div class="tabbed-content--body gd-row inner-content">
+						<div class="gd-half gd-columns">
+							<img class="prs" src="http://placehold.it/478x336">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="primary-heading semibold uppercase paragon-text">Undefined II</h3>
+							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<a class="button special" href="#">Learn More</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- End Tab 6 -->
+
+		</div>
 
 		<section class="tradewind-global-brands border-divider">
 			<div class="wrapper pvs align-center">
@@ -86,8 +182,7 @@
 						<div class="gd-half gd-columns">
 							<div class="phxs align-center">
 								<img class="pvxs phxs" src="images/tw-windows-logo.png">
-								<p>Recognizing the value of centuries-old philosophy while understanding that success is built on forward thinking.  This product line brings European craftsmanship and attention to detail into a perfect union with cutting-edge technology and efficiency. 
-</p>						
+								<p>Recognizing the value of centuries-old philosophy while understanding that success is built on forward thinking.  This product line brings European craftsmanship and attention to detail into a perfect union with cutting-edge technology and efficiency.</p>						
 							
 								<a class="button primary" href="#">Click Here To Learn More</a>
 							
@@ -113,10 +208,8 @@
 				<div class="wrapper">
 					<div class="gd-row">
 						<div class="gd-half float-left pbxl pm trans-blk-bg align-center">
-							<h3 class="great-text white">Outstanding Results</h3>
-							<p class="white paragon-text thin mbl">Once we understand your vision 
-and desired options and features, we draw upon the capabilities of our 
-network of the world’s most advanced manufacturers and our own expertise in service and installation to achieve your absolute satisfaction.  </p>
+							<h3 class="great-text white-text">Outstanding Results</h3>
+							<p class="white-text paragon-text thin mbl">Once we understand your vision and desired options and features, we draw upon the capabilities of our network of the world’s most advanced manufacturers and our own expertise in service and installation to achieve your absolute satisfaction.</p>
 						</div>
 					</div>
 				</div>
