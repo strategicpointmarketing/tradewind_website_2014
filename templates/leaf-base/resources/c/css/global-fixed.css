@@ -467,6 +467,7 @@ manageable.
 .secondary-heading {
   color: #999999;
   font-family: "Source Sans Pro", Helvetica, Arial, "Arial Unicode", "Lucida Sans Unicode", sans-serif;
+  font-weight: 400;
 }
 .tertiary-heading {
   color: #0073e5;
@@ -540,6 +541,7 @@ html,
 body {
   font-size: 100%;
   font-family: "Source Sans Pro", Helvetica, Arial, "Arial Unicode", "Lucida Sans Unicode", sans-serif;
+  background: #fdfdfd;
 }
 /*
 
@@ -548,6 +550,35 @@ Paragraph Defaults
 */
 p {
   line-height: 1.5em;
+}
+/*
+
+Weights
+
+*/
+.thin {
+  font-weight: 100;
+}
+.normal {
+  font-weight: 400;
+}
+.medium {
+  font-weight: 500;
+}
+.semibold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+/*
+Text Transform 
+*/
+.uppercase {
+  text-transform: uppercase;
+}
+.capitalize {
+  text-transform: capitalize;
 }
 a {
   text-decoration: none;
@@ -580,6 +611,8 @@ a {
 .button.primary {
   color: #ffffff;
   background: #b22828;
+  font-size: 18px;
+  font-size: 1.125rem;
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -1270,6 +1303,9 @@ Background
 }
 .white-text {
   color: white;
+}
+.primary-color {
+  color: #b22828;
 }
 .main-nav {
   border-bottom: solid 1px #d9d9d9;

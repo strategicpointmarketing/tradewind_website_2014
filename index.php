@@ -105,8 +105,8 @@
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Custom Wood</h3>
-							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
-							<a class="button special" href="#">Learn More</a>
+							<p>This series is perfect for a historic restoration or the current day aesthetic touch. In our wood line, we use a state of the art finishing process that uses Nano Technology that allows the wood to breathe but prevents moisture from penetrating the wood.</p>
+							<a class="button special" href="subpage.php">Learn More</a>
 						</div>
 
 					</div>
@@ -123,7 +123,7 @@
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Elite Aluminum</h3>
-							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<p>Perfect for a modern design or to maximize the visible glass. This series offers sleek and clean lines with smooth a operation every time. Through multiple features, this series will stand the test of time while making a design statement.</p>
 							<a class="button special" href="#">Learn More</a>
 						</div>
 
@@ -141,7 +141,7 @@
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Performance PVC</h3>
-							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<p>Affordability and built to stand the test of time or weather; this material gives home owners the ability to enjoy their homes without forcing them to struggle with maintenance. This line is the perfect combination of form and function. </p>
 							<a class="button special" href="#">Learn More</a>
 						</div>
 

@@ -12,18 +12,19 @@
 
 	</header>
 
-	<main role="main">
+	<main class="nav-compensation" role="main">
 
 		<section class="custom-wood">
-			<div class="wrapper inner-content">
+			<div class="wrapper inner-content align-center">
 				<h1 class="great-text mtn">Custom Wood</h1>
+				
 
-				<a class="button special mrs">Custom Windows</a>
-				<a class="button special">Custom Doors</a>
+				<a class="button primary mrxs">Custom Windows</a>
+				<a class="button primary">Custom Doors</a>
 
-				<h2 class="canon-text">Wooden Doors and Windows To Maximize Your Lifestyle
+				<h2 class="canon-text mtxs">Wooden Doors and Windows To Maximize Your Lifestyle
 				</h2>
-				<h3 class="secondary-heading paragon-text capitalize">Our process makes us unique.</h3>
+				<h3 class="secondary-heading paragon-text capitalize mtxs">Our process makes us unique.</h3>
 				
 				<p>Our windows and doors are crafted using historic methods of joinery that have been proven  to withstand the test of time. We then apply the world’s most advance finishing technology  that features a state of the art breathable mid-layer to allow the wood to breathe but prevent  moisture from penetrating the wood. With virtually limitless design capabilities you can have complete freedom to create your design.
 				</p>

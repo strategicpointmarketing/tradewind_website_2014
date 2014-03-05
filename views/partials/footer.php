@@ -40,6 +40,6 @@
 </div>
 <div class="relative-container trans-blk-bg">
 	<div class="wrapper align-center pvs">
-		<span class="petite-text white">&copy; <?php echo date("Y"); ?> Tradewind Distribution. All rights reserved. Designed by <a class="primary-color" href="#">Strategic Point Marketing.</a></span>
+		<span class="petite-text white-text">&copy; <?php echo date("Y"); ?> Tradewind Distribution. All rights reserved. Designed by <a class="primary-color" href="#">Strategic Point Marketing.</a></span>
 	</div>
 </div>
