@@ -26,7 +26,6 @@
 }
 
 
-
 // Main Navigation
 .main-nav {	
 	border-bottom: solid 1px @light-grey;
@@ -146,3 +145,90 @@
 	border-top: solid 1px @light-grey;
 	border-bottom: solid 1px @light-grey;
 }
+
+// Background 
+
+
+.two-tone {
+	width:100%;
+	position:relative;
+
+	&:before {
+		content:"";
+		height:100%;
+		width:50%;
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		bottom: 0;
+	}
+
+	&.grey {
+		background: lighten(@client-color-5, 12%);
+
+		&:before {
+			background: lighten(@client-color-5, 10%);
+		}
+	}
+}
+
+
+// Shame Style
+
+.tradewind-process .flex-control-paging {
+	display:none;
+}
+
+.wrapper-overlay {
+	position:relative;
+	z-index:2;
+
+	// Mixins
+	.wrapper;
+}
+
+.back-to-top {
+	position:fixed;
+	z-index:4;
+	bottom:0;
+	right:0;
+	background: @black;
+	color: @white;
+	opacity:0.5;
+	text-decoration: none;
+
+	// Mixins
+	.transition(opacity,.2s,ease-in-out);
+
+	&:hover, &:active {
+		opacity:1;
+	}
+
+	// Mixins
+	.minion-text;
+	.spacing-all(padding,10);	
+	.transition(opacity,.2s,ease-in-out);
+}
+
+.black-bg {
+	background: @black;
+}
+
+.white-bg {
+	background: @white;
+}
+
+.silver-bg {
+	// Shame - to create radial mixin later
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%, rgba(219,219,219,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(219,219,219,1))); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* IE10+ */
+background: radial-gradient(ellipse at center,  rgba(255,255,255,1) 0%,rgba(219,219,219,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#dbdbdb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
