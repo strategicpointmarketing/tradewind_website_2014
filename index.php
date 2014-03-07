@@ -218,9 +218,30 @@
 
 		<section class="tradewind-process">
 			<div class="relative-container">
-				<div class="wrapper inner-content align-center">
-					<img src="images/tradewind-process.png">
-					<h4 class="great-text capitalize thin">"All Solutions and precision of Execution"</h4> 
+				<div class="wrapper pbs ptl js-slider">
+					<ul class="slides">
+						<li>
+							<img src="images/process/tw-process-step1.png">
+							<h4 class="great-text align-center capitalize thin">"The Best From Around The World"</h4> 
+						</li>
+						<li>
+							<img src="images/process/tw-process-step2.png">
+							<h4 class="great-text align-center capitalize thin">"Brought To The Market By A Team That Understands Quality And Efficiency"</h4> 
+						</li>
+						<li>
+							<img src="images/process/tw-process-step3.png">
+							<h4 class="great-text align-center capitalize thin">"Where Architects Can Find The Most Unique Blends Of Efficiency With Amazing Aesthetics"</h4> 
+						</li>
+						<li>
+							<img src="images/process/tw-process-step4.png">
+							<h4 class="great-text align-center capitalize thin">"Where Clients Can Create And Customize Their Very Own Vision Of Beauty And Functionality"</h4> 
+						</li>
+						<li>
+							<img src="images/process/tw-process-step5.png">
+							<h4 class="great-text align-center capitalize thin">"All Solutions and Precision of Execution"</h4> 
+						</li>
+					</ul>
+					
 				</div>
 			</div>
 		</section>
