@@ -49,12 +49,24 @@
 				<div class="wrapper">
 					<div class="tabbed-nav--interior">
 						<div class="tabbed-nav--row">
-							<a data-reveal="tab1" class="is-current tabbed-nav--item" href="#">Undefined I</a>
-							<a data-reveal="tab2" class="tabbed-nav--item" href="#">Minimal Frame</a>
-							<a data-reveal="tab3" class="tabbed-nav--item" href="subpage.php">Custom Wood</a>
-							<a data-reveal="tab4" class="tabbed-nav--item" href="#">Elite Aluminum</a>
-							<a data-reveal="tab5" class="tabbed-nav--item" href="#">Performance PVC</a>
-							<a data-reveal="tab6" class="tabbed-nav--item" href="#">Undefined II</a>
+							<a data-reveal="tab1" class="is-current tabbed-nav--item" href="#">
+								<div class="tabbed-nav--label">Undefined I</div>
+							</a>
+							<a data-reveal="tab2" class="tabbed-nav--item" href="#">
+								<div class="tabbed-nav--label">Minimal Frame</div>
+							</a>
+							<a data-reveal="tab3" class="tabbed-nav--item" href="subpage.php">
+								<div class="tabbed-nav--label">Custom Wood</div>
+							</a>
+							<a data-reveal="tab4" class="tabbed-nav--item" href="#">
+								<div class="tabbed-nav--label">Elite Aluminum</div>
+							</a>
+							<a data-reveal="tab5" class="tabbed-nav--item" href="#">
+								<div class="tabbed-nav--label">Performance PVC</div>
+							</a>
+							<a data-reveal="tab6" class="tabbed-nav--item" href="#">
+								<div class="tabbed-nav--label">Undefined II</div>
+							</a>
 						</div>
 					</div>
 				</div>

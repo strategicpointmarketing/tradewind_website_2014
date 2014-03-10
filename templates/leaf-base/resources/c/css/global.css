@@ -1390,8 +1390,6 @@ Background
 }
 .tabbed-nav--item {
   display: table-cell;
-  padding-top: 1.25em;
-  padding-bottom: 1.25em;
   color: #ffffff;
   border-right: 2px solid #ffffff;
   text-align: center;
@@ -1402,15 +1400,19 @@ Background
   font-size: 18px;
   font-size: 1.125rem;
 }
+.tabbed-nav--item .tabbed-nav--label {
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  position: relative;
+}
 .tabbed-nav--item:hover,
 .tabbed-nav--item:focus,
 .tabbed-nav--item.is-current {
-  position: relative;
   background-color: #b22828;
 }
-.tabbed-nav--item:hover:after,
-.tabbed-nav--item:focus:after,
-.tabbed-nav--item.is-current:after {
+.tabbed-nav--item:hover .tabbed-nav--label:after,
+.tabbed-nav--item:focus .tabbed-nav--label:after,
+.tabbed-nav--item.is-current .tabbed-nav--label:after {
   content: "";
   margin-left: -10px;
   position: absolute;

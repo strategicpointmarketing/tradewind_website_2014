@@ -105,8 +105,6 @@
 
 	// Structure
 	display: table-cell;
-	padding-top: @20px;
-	padding-bottom: @20px;
 
 	// Pretty
 	color: @white;
@@ -121,25 +119,33 @@
 		.primer-text;
 	}
 
+	.tabbed-nav--label {
+		padding-top: @20px;
+		padding-bottom: @20px;
+		position: relative;
+	}
+
 	&:hover,
 	&:focus,
 	&.is-current {
-		position: relative;
 		background-color: @red;
 
-		&:after {
-			content: "";
-			margin-left: -10px;
-			position: absolute;
-			top: 100%;
-			left: 50%;
-			border-left: 10px solid transparent;
-			border-right: 10px solid transparent;
-			border-top: 10px solid @red;
+		.tabbed-nav--label {
+
+			&:after {
+				content: "";
+				margin-left: -10px;
+				position: absolute;
+				top: 100%;
+				left: 50%;
+				border-left: 10px solid transparent;
+				border-right: 10px solid transparent;
+				border-top: 10px solid @red;
+			}
+
 		}
 	}
 }
-
 
 .border-divider {
 	border-top: solid 1px @light-grey;
