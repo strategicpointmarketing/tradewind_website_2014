@@ -49,6 +49,18 @@
 			</div>
 		</section>
 
+		<section class="custom-wood-testimonial">
+			<div class="relative-container brand-promise-bg test-height">
+				<div class="wrapper">
+					<div class="gd-row">
+						<div class="gd-half float-left pbxl pm trans-blk-bg align-center">
+							<h3 class="great-text white-text">Outstanding Results</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 		<section class="nav-compensation white-bg" id="custom-wood-windows">
 			<div class="wrapper">
 				<h2 class="great-text align-center mtn mbxs">Minimal Framed Wooden Windows</h2>
