@@ -1,4 +1,4 @@
-<div class="relative-container white-bg border-divider">
+<div class="relative-container white-bg border-divider clear">
 	<div class="wrapper pvm">
 		<div class="gd-row">
 			<div class="gd-quarter gd-columns">

@@ -6,6 +6,7 @@
 @import "@{base-path-less}_theme/_interactive/links.less";
 @import "@{base-path-less}_theme/_interactive/t-buttons.less";
 @import "@{base-path-less}_theme/_interactive/t-slider.less";
+@import "@{base-path-less}_theme/_interactive/t-gallery.less";
 @import "@{base-path-less}_theme/_helpers/t-presentational.less";
 @import "@{base-path-less}_theme/_layout/_grid/t-grid-base.less";
 
@@ -112,12 +113,7 @@
 	text-align: center;
 	vertical-align: middle;
 	text-transform: uppercase;
-	
-	&:first-letter {
 
-		// Mixins
-		.primer-text;
-	}
 
 	.tabbed-nav--label {
 		padding-top: @20px;
@@ -175,28 +171,132 @@
 
 		&:before {
 			background: lighten(@client-color-5, 10%);
+			width: 50%;
 		}
 	}
 }
 
 
-// Stretch Background
+// Hero Two Tone
 
-.test-height {
-	height: 600px;
+.hero-tone {
+	height:400px;
+
+	&:before {
+		content:"";
+		height:100%;
+		width:40%;
+		position: absolute;
+		z-index: 2;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		background: @black;
+	}
+
+	&:after {
+		content:"";
+		height:100%;
+		width:60%;
+		position: absolute;
+		z-index: 1;
+		top: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	&.custom-wood:after {
+		background:url("@{base-path-images}wood/tw-custom-wood-hero.jpg");
+		background-size:cover;
+		background-position: center center;
+		background-repeat:no-repeat;
+	}
+
+	&.elite-aluminum:after {
+		background:url("@{base-path-images}aluminum/tw-aluminum-hero.jpg");
+		background-size:cover;
+		background-position: center center;
+		background-repeat:no-repeat;
+	}
+
+	&.performance-pvc:after {
+		background:url("@{base-path-images}pvc/tw-performance-pvc-hero.jpg");
+		background-size:cover;
+		background-position: center center;
+		background-repeat:no-repeat;
+	}
+
+	// After Wrapper
+	.wrapper {
+		position:relative;
+		z-index:3;
+		height:100%;
+
+		.description {
+			height:100%;
+			background: @black;
+		}
+	}
+
 }
 
-.stretch-bg {
-	background-size:cover;
-	background-repeat: no-repeat;
+// Info Image Background
 
-	&.wood--quote {
+.info-img {
+	background-repeat:no-repeat;
+	background-position: center center;
+	height:640px;
 
-		background:url("@{base-path-images}tw-custom-wood-testimonial.jpg");
+	&.custom-wood {
+		background:url("@{base-path-images}wood/tw-custom-wood-testimonial.jpg");
+		background-size:cover;
+	}
 
+	&.elite-aluminum {
+		background:url("@{base-path-images}aluminum/tw-aluminum-testimonial.jpg");
+		background-size:cover;
+	}
+
+	&.performance-pvc {
+		background:url("@{base-path-images}pvc/tw-performance-pvc-testimonial.jpg");
+		background-size:cover;
 	}
 }
 
+// Stretch Background
+
+[class*='stretch-bg'] {
+	background-repeat: no-repeat;	
+	background-position:center center;
+}
+
+
+
+.stretch-bg {	
+
+	&--brand-promise {
+		background:url("@{base-path-images}outstanding-results.jpg");
+		background-size: cover;
+	}
+
+	&--wood-hero {
+		background:url("@{base-path-images}wood/tw-custom-wood-hero.jpg");
+		background-size:cover;
+
+	}
+
+	&--wood-quote {
+		background:url("@{base-path-images}wood/tw-custom-wood-testimonial.jpg");
+		background-size:cover;
+	}
+}
+
+
+
+.brand-promise-bg {
+    background:url("@{base-path-images}outstanding-results.jpg");
+    background-size: cover;
+}
 
 
 
@@ -239,7 +339,13 @@
 
 .black-bg {
 	background: @black;
+
 }
+
+.trans-blk-bg {
+    background:fade(@black,80%);
+}
+
 
 .white-bg {
 	background: @white;

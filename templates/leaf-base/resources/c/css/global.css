@@ -784,6 +784,250 @@ html[xmlns] .slides {
 .caption__right {
   float: right;
 }
+.gallery--list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.gallery--list li {
+  display: inline-block;
+  float: left;
+  margin: 0.3125em;
+}
+.gallery--list li > a {
+  display: block;
+  border: solid 1px #d9d9d9;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+.gallery--list li > a:hover {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+#colorbox,
+#cboxOverlay,
+#cboxWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  overflow: hidden;
+}
+#colorbox {
+  background: #ffffff;
+  border: solid 1px #999999;
+}
+#cboxWrapper {
+  max-width: none;
+}
+#cboxOverlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+#cboxMiddleLeft,
+#cboxBottomLeft {
+  clear: left;
+}
+#cboxContent {
+  position: relative;
+}
+#cboxLoadedContent {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#cboxTitle {
+  margin: 0;
+  color: #ffffff;
+}
+#cboxLoadingOverlay,
+#cboxLoadingGraphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#cboxPrevious,
+#cboxNext,
+#cboxClose,
+#cboxSlideshow {
+  cursor: pointer;
+}
+.cboxPhoto {
+  float: left;
+  margin: auto;
+  border: 0;
+  display: block;
+  max-width: none;
+  -ms-interpolation-mode: bicubic;
+}
+.cboxIframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+#colorbox,
+#cboxContent,
+#cboxLoadedContent {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+}
+/* 
+    User Style:
+    Change the following styles to modify the appearance of Colorbox.  They are
+    ordered & tabbed in a way that represents the nesting of the generated HTML.
+*/
+#cboxOverlay {
+  background: #999999;
+  opacity: 0.5;
+  z-index: 4;
+}
+#colorbox {
+  outline: 0;
+  z-index: 5;
+  top: 5.5em !important;
+}
+#cboxTopLeft {
+  width: 21px;
+  height: 21px;
+  background: url(gallery/_resources/colorbox/images/controls.png) no-repeat -101px 0;
+}
+#cboxTopRight {
+  width: 21px;
+  height: 21px;
+  background: url(gallery/_resources/colorbox/images/controls.png) no-repeat -130px 0;
+}
+#cboxBottomLeft {
+  width: 21px;
+  height: 21px;
+  background: url(gallery/_resources/colorbox/images/controls.png) no-repeat -101px -29px;
+}
+#cboxBottomRight {
+  width: 21px;
+  height: 21px;
+  background: url(gallery/_resources/colorbox/images/controls.png) no-repeat -130px -29px;
+}
+#cboxMiddleLeft {
+  width: 21px;
+  background: url(gallery/_resources/colorbox/images/controls.png) left top repeat-y;
+}
+#cboxMiddleRight {
+  width: 21px;
+  background: url(gallery/_resources/colorbox/images/controls.png) right top repeat-y;
+}
+#cboxTopCenter {
+  height: 21px;
+  background: url(gallery/_resources/colorbox/images/border.png) 0 0 repeat-x;
+}
+#cboxBottomCenter {
+  height: 21px;
+  background: url(gallery/_resources/colorbox/images/border.png) 0 -29px repeat-x;
+}
+#cboxContent {
+  background: #fff;
+  overflow: hidden;
+}
+.cboxIframe {
+  background: #fff;
+}
+#cboxError {
+  padding: 50px;
+  border: 1px solid #ccc;
+}
+#cboxLoadedContent {
+  margin-bottom: 28px;
+}
+#cboxTitle {
+  /*position:absolute; bottom:4px; left:0; text-align:center; width:100%; color:#949494;*/
+  display: none;
+}
+#cboxCurrent {
+  /*position:absolute; bottom:4px; left:58px; color:#949494;*/
+  display: none;
+}
+#cboxLoadingOverlay {
+  background: url(images/loading_background.png) no-repeat center center;
+}
+#cboxLoadingGraphic {
+  background: url(images/loading.gif) no-repeat center center;
+}
+/* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
+#cboxPrevious,
+#cboxNext,
+#cboxSlideshow,
+#cboxClose {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  width: auto;
+  background: none;
+}
+/* avoid outlines on :active (mouseclick), but preserve outlines on :focus (tabbed navigating) */
+#cboxPrevious:active,
+#cboxNext:active,
+#cboxSlideshow:active,
+#cboxClose:active {
+  outline: 0;
+}
+#cboxSlideshow {
+  position: absolute;
+  bottom: 4px;
+  right: 30px;
+  color: #0092ef;
+}
+#cboxPrevious:focus,
+#cboxNext:focus,
+#cbox:focus {
+  outline: 0;
+}
+#cboxPrevious {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url(/gallery/_resources/colorbox/1/images/controls.png) no-repeat -75px 0;
+  width: 25px;
+  height: 25px;
+  text-indent: -9999px;
+}
+#cboxPrevious:hover {
+  background-position: -75px -25px;
+}
+#cboxNext {
+  position: absolute;
+  bottom: 0;
+  left: 27px;
+  background: url(/gallery/_resources/colorbox/1/images/controls.png) no-repeat -50px 0;
+  width: 25px;
+  height: 25px;
+  text-indent: -9999px;
+}
+#cboxNext:hover {
+  background-position: -50px -25px;
+}
+#cboxClose {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: url(/gallery/_resources/colorbox/1/images/controls.png) no-repeat -25px 0;
+  width: 25px;
+  height: 25px;
+  text-indent: -9999px;
+}
+#cboxClose:hover {
+  background-position: -25px -25px;
+}
 /*
 
 Text Align
@@ -971,19 +1215,19 @@ body:hover .simple-reveal-container.is-current button {
 Margin Removal
 */
 .mn {
-  margin: 0;
+  margin: 0 !important;
 }
 .mtn {
-  margin-top: 0;
+  margin-top: 0 !important;
 }
 .mrn {
-  margin-right: 0;
+  margin-right: 0 !important;
 }
 .mbn {
-  margin-bottom: 0;
+  margin-bottom: 0 !important;
 }
 .mln {
-  margin-left: 0;
+  margin-left: 0 !important;
 }
 /*
 Margin All
@@ -1125,19 +1369,19 @@ Margin Horizontal (Left & Right)
 Padding Removal
 */
 .pn {
-  padding: 0;
+  padding: 0 !important;
 }
 .ptn {
-  padding-top: 0;
+  padding-top: 0 !important;
 }
 .prn {
-  padding-right: 0;
+  padding-right: 0 !important;
 }
 .pbn {
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 .pln {
-  padding-left: 0;
+  padding-left: 0 !important;
 }
 /*
 Padding All
@@ -1284,18 +1528,6 @@ Padding Inner Content
   padding-top: 3.4375em;
   padding-bottom: 3.4375em;
 }
-/* 
-
-Background 
-
-*/
-.brand-promise-bg {
-  background: url("/templates/leaf-base/resources/images/outstanding-results.jpg");
-  background-size: cover;
-}
-.trans-blk-bg {
-  background: rgba(0, 0, 0, 0.8);
-}
 .media-grid {
   margin-top: 0;
   padding: 0;
@@ -1396,10 +1628,6 @@ Background
   vertical-align: middle;
   text-transform: uppercase;
 }
-.tabbed-nav--item:first-letter {
-  font-size: 18px;
-  font-size: 1.125rem;
-}
 .tabbed-nav--item .tabbed-nav--label {
   padding-top: 1.25em;
   padding-bottom: 1.25em;
@@ -1445,6 +1673,95 @@ Background
 }
 .two-tone.grey:before {
   background: #f2f2f2;
+  width: 50%;
+}
+.hero-tone {
+  height: 400px;
+}
+.hero-tone:before {
+  content: "";
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #000000;
+}
+.hero-tone:after {
+  content: "";
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.hero-tone.custom-wood:after {
+  background: url("/templates/leaf-base/resources/images/wood/tw-custom-wood-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.hero-tone.elite-aluminum:after {
+  background: url("/templates/leaf-base/resources/images/aluminum/tw-aluminum-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.hero-tone.performance-pvc:after {
+  background: url("/templates/leaf-base/resources/images/pvc/tw-performance-pvc-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.hero-tone .wrapper {
+  position: relative;
+  z-index: 3;
+  height: 100%;
+}
+.hero-tone .wrapper .description {
+  height: 100%;
+  background: #000000;
+}
+.info-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 640px;
+}
+.info-img.custom-wood {
+  background: url("/templates/leaf-base/resources/images/wood/tw-custom-wood-testimonial.jpg");
+  background-size: cover;
+}
+.info-img.elite-aluminum {
+  background: url("/templates/leaf-base/resources/images/aluminum/tw-aluminum-testimonial.jpg");
+  background-size: cover;
+}
+.info-img.performance-pvc {
+  background: url("/templates/leaf-base/resources/images/pvc/tw-performance-pvc-testimonial.jpg");
+  background-size: cover;
+}
+[class*='stretch-bg'] {
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.stretch-bg--brand-promise {
+  background: url("/templates/leaf-base/resources/images/outstanding-results.jpg");
+  background-size: cover;
+}
+.stretch-bg--wood-hero {
+  background: url("/templates/leaf-base/resources/images/wood/tw-custom-wood-hero.jpg");
+  background-size: cover;
+}
+.stretch-bg--wood-quote {
+  background: url("/templates/leaf-base/resources/images/wood/tw-custom-wood-testimonial.jpg");
+  background-size: cover;
+}
+.brand-promise-bg {
+  background: url("/templates/leaf-base/resources/images/outstanding-results.jpg");
+  background-size: cover;
 }
 .tradewind-process .flex-control-paging {
   display: none;
@@ -1479,6 +1796,9 @@ Background
 }
 .black-bg {
   background: #000000;
+}
+.trans-blk-bg {
+  background: rgba(0, 0, 0, 0.8);
 }
 .white-bg {
   background: #ffffff;

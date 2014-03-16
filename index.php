@@ -49,10 +49,8 @@
 				<div class="wrapper">
 					<div class="tabbed-nav--interior">
 						<div class="tabbed-nav--row">
-							<a data-reveal="tab1" class="is-current tabbed-nav--item" href="#">
-								<div class="tabbed-nav--label">Undefined I</div>
-							</a>
-							<a data-reveal="tab2" class="tabbed-nav--item" href="#">
+						
+							<a data-reveal="tab2" class="is-current tabbed-nav--item" href="#">
 								<div class="tabbed-nav--label">Minimal Frame</div>
 							</a>
 							<a data-reveal="tab3" class="tabbed-nav--item" href="subpage.php">
@@ -64,15 +62,13 @@
 							<a data-reveal="tab5" class="tabbed-nav--item" href="#">
 								<div class="tabbed-nav--label">Performance PVC</div>
 							</a>
-							<a data-reveal="tab6" class="tabbed-nav--item" href="#">
-								<div class="tabbed-nav--label">Undefined II</div>
-							</a>
+							
 						</div>
 					</div>
 				</div>
 			</section>
 			
-			<!-- Tab 1 -->
+			<!--
 			<section id="tab1" class="tab is-current tabbed-content--container">
 				<div class="wrapper">
 					<div class="tabbed-content--body gd-row inner-content">
@@ -91,7 +87,7 @@
 			<!-- End Tab 1 -->
 
 			<!-- Tab 2 -->
-			<section id="tab2" class="tab tabbed-content--container">
+			<section id="tab2" class="tab is-current tabbed-content--container">
 				<div class="wrapper">
 					<div class="tabbed-content--body gd-row inner-content">
 						<div class="gd-half gd-columns">
@@ -100,7 +96,7 @@
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Minimal Frame</h3>
 							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
-							<a class="button special" href="#">Learn More</a>
+							<a class="button special" href="minimal-frame/index.php">Learn More</a>
 						</div>
 
 					</div>
@@ -118,7 +114,7 @@
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Custom Wood</h3>
 							<p>This series is perfect for a historic restoration or the current day aesthetic touch. In our wood line, we use a state of the art finishing process that uses Nano Technology that allows the wood to breathe but prevents moisture from penetrating the wood.</p>
-							<a class="button special" href="subpage.php">Learn More</a>
+							<a class="button special" href="custom-wood/index.php">Learn More</a>
 						</div>
 
 					</div>
@@ -136,7 +132,7 @@
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Elite Aluminum</h3>
 							<p>Perfect for a modern design or to maximize the visible glass. This series offers sleek and clean lines with smooth a operation every time. Through multiple features, this series will stand the test of time while making a design statement.</p>
-							<a class="button special" href="#">Learn More</a>
+							<a class="button special" href="elite-aluminum/index.php">Learn More</a>
 						</div>
 
 					</div>
@@ -154,7 +150,7 @@
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Performance PVC</h3>
 							<p>Affordability and built to stand the test of time or weather; this material gives home owners the ability to enjoy their homes without forcing them to struggle with maintenance. This line is the perfect combination of form and function. </p>
-							<a class="button special" href="#">Learn More</a>
+							<a class="button special" href="performance-pvc/index.php">Learn More</a>
 						</div>
 
 					</div>
@@ -162,7 +158,7 @@
 			</section>
 			<!-- End Tab 5 -->
 
-			<!-- Tab 6 -->
+			<!-- Tab 6
 			<section id="tab6" class="tab tabbed-content--container">
 				<div class="wrapper">
 					<div class="tabbed-content--body gd-row inner-content">
@@ -216,7 +212,7 @@
 		</section>
 
 		<section class="tradewind-brand-promise">
-			<div class="relative-container brand-promise-bg">
+			<div class="relative-container stretch-bg--brand-promise">
 				<div class="wrapper">
 					<div class="gd-row">
 						<div class="gd-half float-left pbxl pm trans-blk-bg align-center">
