@@ -1,5 +1,5 @@
 <!-- Global Head -->
-<?php include('../views/partials/globalHead.php'); ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
 <!-- End Global Head -->
 
 <body>
@@ -7,7 +7,7 @@
 	<header>
 		
 		<!-- Main Navigation -->
-		<?php include('../views/partials/mainNavigation.php'); ?>
+		<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/mainNavigation.php'; ?>
 		<!-- End Main Navigation -->
 
 	</header>
@@ -24,8 +24,8 @@
 								<h1 class="great-text semibold mtn">Elite Aluminum</h1>
 					
 
-								<a class="button primary mrxs" href="#elite-aluminum-windows">Aluminum Windows</a>
-								<a class="button primary" href="#elite-aluminum-doors">Aluminum Doors</a>
+								<a class="button primary mrxs" href="#elite-aluminum-options">Aluminum Windows</a>
+								<a class="button primary" href="#elite-aluminum-options">Aluminum Doors</a>
 
 								<p class="petite-text mtxs">Click a button above to learn more about Tradewind's elite aluminum options.</p>
 							</div>
@@ -59,68 +59,20 @@ For example in the aluminum line you can still have the look of wood with a cust
 			</div>
 		</section>
 
-		<section class="nav-compensation clear white-bg" id="elite-aluminum-windows">
+		<section class="nav-compensation clear white-bg" id="elite-aluminum-options">
 			<div class="wrapper">
-				<h2 class="great-text align-center mtn mbxs">Minimal Framed Wooden Windows</h2>
+				<h2 class="great-text align-center mtn mbxs">Elite Aluminum Window & Door Options</h2>
 			</div>
 			<div class="relative-container two-tone grey">
 				<div class="wrapper-overlay inner-content">					
 					<div class="gd-row">
 						<div class="gd-half gd-columns">
-							<img src="/images/custom-wood/tw-elite-aluminum-double-hung.png">
-						</div>
-						<div class="gd-half gd-columns">
-							<h3 class="absolute-heading canon-text mtn">Double Hung</h3>
-							<p>Learn How Traditional Architecture Meets Modern Design</p>
-							<a class="button special" href="#">View Gallery</a>
-						</div>						
-					</div>
-				</div>
-			</div>
-			<div class="wrapper inner-content">					
-				<div class="gd-row">
-					<div class="gd-half gd-columns">
-						<img src="/images/custom-wood/tw-elite-aluminum-casement.png">
-					</div>
-					<div class="gd-half gd-columns">
-						<h3 class="absolute-heading canon-text mtn">Casement</h3>
-						<p>Historic Restoration Or Current Day Aesthetics</p>
-						<a class="button special" href="#">View Gallery</a>
-					</div>						
-				</div>
-			</div>
-	
-			<div class="relative-container two-tone grey">
-				<div class="wrapper-overlay inner-content">					
-					<div class="gd-row">
-						<div class="gd-half gd-columns">
-							<img src="/images/custom-wood/tw-elite-aluminum-tilt-turn.png">
+							<img src="/images/elite-aluminum/tw-aluminum-tilt-turn.png">
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="absolute-heading canon-text mtn">Tilt & Turn</h3>
-							<p>European Design Perfected For Today</p>
-							<a class="button special" href="#">View Gallery</a>
-						</div>						
-					</div>
-				</div>
-			</div>
-		</section>
-
-
-		<section class="nav-compensation" id="elite-aluminum-doors">
-			<div class="wrapper">
-				<h2 class="great-text align-center mtn mbxs">Specially Designed Wooden Doors</h2>
-			</div>
-			<div class="relative-container two-tone grey">
-				<div class="wrapper-overlay inner-content">					
-					<div class="gd-row">
-						<div class="gd-half gd-columns">
-							<img src="/images/custom-wood/tw-elite-aluminum-swing.png">
-						</div>
-						<div class="gd-half gd-columns">
-							<h3 class="absolute-heading canon-text mtn">Swing Doors</h3>
-							<p>Swing Into Something Unique</p>
-							<a class="button special" href="#">View Gallery</a>
+							<p>Accomplishing Performance</p>
+							<a class="button special" href="/gallery/aluminum-tilt-turn.php">View Gallery</a>
 						</div>						
 					</div>
 				</div>
@@ -128,19 +80,46 @@ For example in the aluminum line you can still have the look of wood with a cust
 			<div class="wrapper inner-content">					
 				<div class="gd-row">
 					<div class="gd-half gd-columns">
-						<img src="/images/custom-wood/tw-elite-aluminum-sliding.png">
+						<img src="/images/elite-aluminum/tw-aluminum-curtain-wall.png">
 					</div>
 					<div class="gd-half gd-columns">
-						<h3 class="absolute-heading canon-text mtn">Sliding Doors</h3>
-						<p>Transforming Living Spaces</p>
-						<a class="button special" href="#">View Gallery</a>
+						<h3 class="absolute-heading canon-text mtn">Curtain Wall</h3>
+						<p>A Glass Facade Unleashed</p>
+						<a class="button special" href="/gallery/aluminum-curtain-wall.php">View Gallery</a>
 					</div>						
 				</div>
 			</div>
 	
-			
+			<div class="relative-container two-tone grey">
+				<div class="wrapper-overlay inner-content">					
+					<div class="gd-row">
+						<div class="gd-half gd-columns">
+							<img src="/images/elite-aluminum/tw-aluminum-sliding.png">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="absolute-heading canon-text mtn">Sliding Doors</h3>
+							<p>Performance Inside and Out</p>
+							<a class="button special" href="/gallery/aluminum-sliding-doors.php">View Gallery</a>
+						</div>						
+					</div>
+				</div>
+			</div>
+
+			<div class="wrapper inner-content">					
+				<div class="gd-row">
+					<div class="gd-half gd-columns">
+						<img src="/images/elite-aluminum/tw-aluminum-swing.png">
+					</div>
+					<div class="gd-half gd-columns">
+						<h3 class="absolute-heading canon-text mtn">Swing Doors</h3>
+						<p>Versatility In Narrow Spaces</p>
+						<a class="button special" href="/gallery/aluminum-swing-doors.php">View Gallery</a>
+					</div>						
+				</div>
+			</div>
 		</section>
-		
+
+
 
 
 
@@ -149,13 +128,12 @@ For example in the aluminum line you can still have the look of wood with a cust
 	<footer>
 
 		<!-- Footer -->
-		<?php include('../views/partials/footer.php'); ?>
-		<!-- End Footer -->
+		<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/footer.php'; ?>
 
 	</footer>
 
 	<!-- Loading Scripts -->
-	<?php include('..//views/partials/scripts.inc.php'); ?>
+	<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/scripts.inc.php'; ?>
 	<!-- End Loading Scripts -->
 
 </body>

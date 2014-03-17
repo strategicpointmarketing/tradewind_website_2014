@@ -12,11 +12,11 @@
 
 	</header>
 
-	<main class="nav-compensation" role="main">
+	<main class="nav-compensation" id="back-to-top" role="main">
 
 		<a href="#back-to-top" class="back-to-top">back to top</a>
 
-		<section class="custom-wood-hero" id="back-to-top">
+		<section class="custom-wood-hero">
 			<div class="relative-container hero-tone custom-wood">
 				<div class="wrapper">
 						<div class="gd-5of12 gd-columns description pn">
@@ -71,7 +71,7 @@
 						<div class="gd-half gd-columns">
 							<h3 class="absolute-heading canon-text mtn">Double Hung</h3>
 							<p>Learn How Traditional Architecture Meets Modern Design</p>
-							<a class="button special" href="#">View Gallery</a>
+							<a class="button special" href="/gallery/custom-wood-double-hung.php">View Gallery</a>
 						</div>						
 					</div>
 				</div>
@@ -84,7 +84,7 @@
 					<div class="gd-half gd-columns">
 						<h3 class="absolute-heading canon-text mtn">Casement</h3>
 						<p>Historic Restoration Or Current Day Aesthetics</p>
-						<a class="button special" href="#">View Gallery</a>
+						<a class="button special" href="/gallery/custom-wood-casement.php">View Gallery</a>
 					</div>						
 				</div>
 			</div>
@@ -98,7 +98,7 @@
 						<div class="gd-half gd-columns">
 							<h3 class="absolute-heading canon-text mtn">Tilt & Turn</h3>
 							<p>European Design Perfected For Today</p>
-							<a class="button special" href="#">View Gallery</a>
+							<a class="button special" href="/gallery/custom-wood-tilt-turn.php">View Gallery</a>
 						</div>						
 					</div>
 				</div>
@@ -119,7 +119,7 @@
 						<div class="gd-half gd-columns">
 							<h3 class="absolute-heading canon-text mtn">Swing Doors</h3>
 							<p>Swing Into Something Unique</p>
-							<a class="button special" href="#">View Gallery</a>
+							<a class="button special" href="/gallery/custom-wood-swing-doors.php">View Gallery</a>
 						</div>						
 					</div>
 				</div>
@@ -132,7 +132,7 @@
 					<div class="gd-half gd-columns">
 						<h3 class="absolute-heading canon-text mtn">Sliding Doors</h3>
 						<p>Transforming Living Spaces</p>
-						<a class="button special" href="#">View Gallery</a>
+						<a class="button special" href="/gallery/custom-wood-sliding-doors.php">View Gallery</a>
 					</div>						
 				</div>
 			</div>

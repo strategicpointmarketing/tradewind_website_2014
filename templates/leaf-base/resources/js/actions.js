@@ -119,6 +119,7 @@ $(document).ready(function() {
 
         }
     };
+   
 
     // Call the script
     homeSlider.init();

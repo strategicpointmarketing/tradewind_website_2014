@@ -1,0 +1,10 @@
+.column-count(@columns, @gap) {
+
+	-webkit-column-count:@columns; 
+	-moz-column-count:@columns; 
+	column-count:@columns;
+
+	-webkit-column-gap:1px * @gap; 
+	-moz-column-gap: 1px * @gap; 
+	column-gap: 1px * @gap;
+}

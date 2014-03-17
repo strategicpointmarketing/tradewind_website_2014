@@ -928,11 +928,9 @@ html[xmlns] .slides {
 }
 #cboxTopCenter {
   height: 21px;
-  background: url(gallery/_resources/colorbox/images/border.png) 0 0 repeat-x;
 }
 #cboxBottomCenter {
   height: 21px;
-  background: url(gallery/_resources/colorbox/images/border.png) 0 -29px repeat-x;
 }
 #cboxContent {
   background: #fff;
@@ -955,12 +953,6 @@ html[xmlns] .slides {
 #cboxCurrent {
   /*position:absolute; bottom:4px; left:58px; color:#949494;*/
   display: none;
-}
-#cboxLoadingOverlay {
-  background: url(images/loading_background.png) no-repeat center center;
-}
-#cboxLoadingGraphic {
-  background: url(images/loading.gif) no-repeat center center;
 }
 /* these elements are buttons, and may need to have additional styles reset to avoid unwanted base styles */
 #cboxPrevious,
@@ -1600,6 +1592,13 @@ Padding Inner Content
 .footer-nav {
   line-height: 1.75em;
 }
+.footer-nav li a {
+  color: #000000;
+}
+.footer-nav li a:hover,
+.footer-nav li a:focus {
+  color: #403d38;
+}
 .js .tabs .tab {
   max-height: 0;
   position: relative;
@@ -1717,6 +1716,12 @@ Padding Inner Content
   background-position: center center;
   background-repeat: no-repeat;
 }
+.hero-tone.minimal-frame:after {
+  background: url("/templates/leaf-base/resources/images/minimal-frame/tw-minimal-frame-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 .hero-tone .wrapper {
   position: relative;
   z-index: 3;
@@ -1725,6 +1730,22 @@ Padding Inner Content
 .hero-tone .wrapper .description {
   height: 100%;
   background: #000000;
+}
+.three-col {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 45px;
+  -moz-column-gap: 45px;
+  column-gap: 45px;
+}
+.four-col {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
 }
 .info-img {
   background-repeat: no-repeat;
@@ -1741,6 +1762,10 @@ Padding Inner Content
 }
 .info-img.performance-pvc {
   background: url("/templates/leaf-base/resources/images/pvc/tw-performance-pvc-testimonial.jpg");
+  background-size: cover;
+}
+.info-img.minimal-frame {
+  background: url("/templates/leaf-base/resources/images/minimal-frame/tw-minimal-frame-testimonial.jpg");
   background-size: cover;
 }
 [class*='stretch-bg'] {
@@ -1762,6 +1787,29 @@ Padding Inner Content
 .brand-promise-bg {
   background: url("/templates/leaf-base/resources/images/outstanding-results.jpg");
   background-size: cover;
+}
+.landing-grid--container {
+  position: relative;
+  background: #000000;
+}
+.landing-grid--container img {
+  position: relative;
+  z-index: 1;
+  display: block;
+  opacity: 0.8;
+}
+.landing-grid--container:hover img {
+  opacity: 0.5;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  -o-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+.landing-grid--heading {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  bottom: 0;
 }
 .tradewind-process .flex-control-paging {
   display: none;

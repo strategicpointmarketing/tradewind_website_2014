@@ -67,8 +67,20 @@
 	border-top: 0;
 }
 
+
 .footer-nav {
+
 	line-height:1.75em;
+
+	li a {
+		color: @black;
+
+		&:hover,
+		&:focus {
+			color: @dark-grey;
+		}
+	}
+
 }
 
 // Tabby Styles
@@ -226,6 +238,13 @@
 		background-repeat:no-repeat;
 	}
 
+	&.minimal-frame:after {
+		background:url("@{base-path-images}minimal-frame/tw-minimal-frame-hero.jpg");
+		background-size:cover;
+		background-position: center center;
+		background-repeat:no-repeat;
+	}
+
 	// After Wrapper
 	.wrapper {
 		position:relative;
@@ -238,6 +257,16 @@
 		}
 	}
 
+}
+
+// CSS3 Columns
+
+.three-col {
+	.column-count(3,45);
+}
+
+.four-col {
+	.column-count(4,40);
 }
 
 // Info Image Background
@@ -259,6 +288,11 @@
 
 	&.performance-pvc {
 		background:url("@{base-path-images}pvc/tw-performance-pvc-testimonial.jpg");
+		background-size:cover;
+	}
+
+	&.minimal-frame {
+		background:url("@{base-path-images}minimal-frame/tw-minimal-frame-testimonial.jpg");
 		background-size:cover;
 	}
 }
@@ -297,6 +331,39 @@
     background:url("@{base-path-images}outstanding-results.jpg");
     background-size: cover;
 }
+
+
+// Windows & Doors Landing
+
+.landing-grid--container {
+	position:relative;
+	background: @black;
+
+	img {
+		position:relative;
+		z-index:1;
+		display:block;
+		opacity: 0.8;
+
+	}
+
+	&:hover img{
+		opacity:0.5;
+
+		// Mixins
+		.transition(opacity,.1s,ease-in-out);
+	}
+}
+
+
+.landing-grid--heading {
+	position:absolute;
+	z-index:3;
+	left:0;
+	bottom:0;
+}
+
+
 
 
 

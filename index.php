@@ -12,7 +12,9 @@
 
 	</header>
 
-	<main class="nav-compensation" role="main">
+	<main class="nav-compensation" id="back-to-top" role="main">
+
+		<a href="#back-to-top" class="back-to-top">back to top</a>
 
 		<aside class="js-slider relative">
 			<ul class="slides">
@@ -91,11 +93,11 @@
 				<div class="wrapper">
 					<div class="tabbed-content--body gd-row inner-content">
 						<div class="gd-half gd-columns">
-							<img class="prs" src="images/minimal-frame.jpg">
+							<img class="prs" src="images/windows-doors/minimal-frame.jpg">
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Minimal Frame</h3>
-							<p>This series stands out for its most appropriate use for interior partitions and spaces where the boundary between interior and exterior are almost nonexistent along with acoustic and thermal insulation that doesn't have considerable impact.</p>
+							<p>This series stands out for its world leading engineering able to produce industry leading sizes with only a very thin sash and the ability to hide the frame. The unlimited perspective almost eliminates those obstructions that can hinder your visual experience.</p>
 							<a class="button special" href="minimal-frame/index.php">Learn More</a>
 						</div>
 
@@ -109,7 +111,7 @@
 				<div class="wrapper">
 					<div class="tabbed-content--body gd-row inner-content">
 						<div class="gd-half gd-columns">
-							<img class="prs" src="http://placehold.it/478x336">
+							<img class="prs" src="images/windows-doors/custom-wood.jpg">
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Custom Wood</h3>
@@ -127,7 +129,7 @@
 				<div class="wrapper">
 					<div class="tabbed-content--body gd-row inner-content">
 						<div class="gd-half gd-columns">
-							<img class="prs" src="http://placehold.it/478x336">
+							<img class="prs" src="images/windows-doors/elite-aluminum.jpg">
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Elite Aluminum</h3>
@@ -145,7 +147,7 @@
 				<div class="wrapper">
 					<div class="tabbed-content--body gd-row inner-content">
 						<div class="gd-half gd-columns">
-							<img class="prs" src="http://placehold.it/478x336">
+							<img class="prs" src="images/windows-doors/performance-pvc.jpg">
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="primary-heading semibold uppercase paragon-text">Performance PVC</h3>
@@ -192,7 +194,7 @@
 								<img class="pvxs phxs" src="images/tw-windows-logo.png">
 								<p>Recognizing the value of centuries-old philosophy while understanding that success is built on forward thinking.  This product line brings European craftsmanship and attention to detail into a perfect union with cutting-edge technology and efficiency.</p>						
 							
-								<a class="button primary" href="#">Click Here To Learn More</a>
+								<a class="button primary" href="/about.php#tw-windows">Click Here To Learn More</a>
 							
 
 							</div>
@@ -202,7 +204,7 @@
 								<img class="pvxs phxs" src="images/panoramah-logo.png">
 								<p>Featuring 20mm visible profiles and 18mm sliding panels, Panoramah brings you truly unique dimensions. The purpose of the panoramic window is to consider the cut-out made in a façade as a direct link between solid spaces and voids, to allow an objective interactivity between interior and exterior.
 							</p>
-								<a class="button primary" href="#">Click Here To Learn More</a>
+								<a class="button primary" href="/about.php#panoramah">Click Here To Learn More</a>
 								
 							</div>
 						</div>
