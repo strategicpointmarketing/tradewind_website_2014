@@ -15,202 +15,151 @@
 
     <main class="nav-compensation" id="back-to-top" role="main">
 
-        <a href="#back-to-top" class="back-to-top">back to top</a>
-       
-        <section class="nav-compensation clear white-bg" id="custom-wood-windows">
-            <div class="wrapper">
-                <h2 class="great-text align-center mtn mbxs">Minimal Framed Wooden Windows</h2>
-            </div>
-            <div class="relative-container two-tone grey">
-                <div class="wrapper-overlay inner-content">                 
-                    <div class="gd-row">
-                        <div class="gd-half gd-columns">
-                            <img src="/images/custom-wood/tw-custom-wood-double-hung.png">
-                        </div>
-                        <div class="gd-half gd-columns">
-                            <h3 class="absolute-heading canon-text mtn">Double Hung</h3>
-                            <p>Learn How Traditional Architecture Meets Modern Design</p>
-                            <a class="button special" href="/gallery/custom-wood-double-hung.php">View Gallery</a>
-                        </div>                      
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper inner-content">                 
-                <div class="gd-row">
-                    <div class="gd-half gd-columns">
-                        <img src="/images/custom-wood/tw-custom-wood-casement.png">
-                    </div>
-                    <div class="gd-half gd-columns">
-                        <h3 class="absolute-heading canon-text mtn">Casement</h3>
-                        <p>Historic Restoration Or Current Day Aesthetics</p>
-                        <a class="button special" href="/gallery/custom-wood-casement.php">View Gallery</a>
-                    </div>                      
-                </div>
-            </div>
-    
-            <div class="relative-container two-tone grey">
-                <div class="wrapper-overlay inner-content">                 
-                    <div class="gd-row">
-                        <div class="gd-half gd-columns">
-                            <img src="/images/custom-wood/tw-custom-wood-tilt-turn.png">
-                        </div>
-                        <div class="gd-half gd-columns">
-                            <h3 class="absolute-heading canon-text mtn">Tilt & Turn</h3>
-                            <p>European Design Perfected For Today</p>
-                            <a class="button special" href="/gallery/custom-wood-tilt-turn.php">View Gallery</a>
-                        </div>                      
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-        <section class="nav-compensation" id="custom-wood-doors">
-            <div class="wrapper">
-                <h2 class="great-text align-center mtn mbxs">Specially Designed Wooden Doors</h2>
-            </div>
-            <div class="relative-container two-tone grey">
-                <div class="wrapper-overlay inner-content">                 
-                    <div class="gd-row">
-                        <div class="gd-half gd-columns">
-                            <img src="/images/custom-wood/tw-custom-wood-swing.png">
-                        </div>
-                        <div class="gd-half gd-columns">
-                            <h3 class="absolute-heading canon-text mtn">Swing Doors</h3>
-                            <p>Swing Into Something Unique</p>
-                            <a class="button special" href="/gallery/custom-wood-swing-doors.php">View Gallery</a>
-                        </div>                      
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper inner-content">                 
-                <div class="gd-row">
-                    <div class="gd-half gd-columns">
-                        <img src="/images/custom-wood/tw-custom-wood-sliding.png">
-                    </div>
-                    <div class="gd-half gd-columns">
-                        <h3 class="absolute-heading canon-text mtn">Sliding Doors</h3>
-                        <p>Transforming Living Spaces</p>
-                        <a class="button special" href="/gallery/custom-wood-sliding-doors.php">View Gallery</a>
-                    </div>                      
-                </div>
-            </div>
-    
-            
-        </section>
-
-        <section class="nav-compensation clear white-bg" id="elite-aluminum-options">
-            <div class="wrapper">
-                <h2 class="great-text align-center mtn mbxs">Elite Aluminum Window & Door Options</h2>
-            </div>
-            <div class="relative-container two-tone grey">
-                <div class="wrapper-overlay inner-content">                 
-                    <div class="gd-row">
-                        <div class="gd-half gd-columns">
-                            <img src="/images/elite-aluminum/tw-aluminum-tilt-turn.png">
-                        </div>
-                        <div class="gd-half gd-columns">
-                            <h3 class="absolute-heading canon-text mtn">Tilt & Turn</h3>
-                            <p>Accomplishing Performance</p>
-                            <a class="button special" href="/gallery/aluminum-tilt-turn.php">View Gallery</a>
-                        </div>                      
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper inner-content">                 
-                <div class="gd-row">
-                    <div class="gd-half gd-columns">
-                        <img src="/images/elite-aluminum/tw-aluminum-curtain-wall.png">
-                    </div>
-                    <div class="gd-half gd-columns">
-                        <h3 class="absolute-heading canon-text mtn">Curtain Wall</h3>
-                        <p>A Glass Facade Unleashed</p>
-                        <a class="button special" href="/gallery/aluminum-curtain-wall.php">View Gallery</a>
-                    </div>                      
-                </div>
-            </div>
-    
-            <div class="relative-container two-tone grey">
-                <div class="wrapper-overlay inner-content">                 
-                    <div class="gd-row">
-                        <div class="gd-half gd-columns">
-                            <img src="/images/elite-aluminum/tw-aluminum-sliding.png">
-                        </div>
-                        <div class="gd-half gd-columns">
-                            <h3 class="absolute-heading canon-text mtn">Sliding Doors</h3>
-                            <p>Performance Inside and Out</p>
-                            <a class="button special" href="/gallery/aluminum-sliding-doors.php">View Gallery</a>
-                        </div>                      
-                    </div>
-                </div>
-            </div>
-
-            <div class="wrapper inner-content">                 
-                <div class="gd-row">
-                    <div class="gd-half gd-columns">
-                        <img src="/images/elite-aluminum/tw-aluminum-swing.png">
-                    </div>
-                    <div class="gd-half gd-columns">
-                        <h3 class="absolute-heading canon-text mtn">Swing Doors</h3>
-                        <p>Versatility In Narrow Spaces</p>
-                        <a class="button special" href="/gallery/aluminum-swing-doors.php">View Gallery</a>
-                    </div>                      
-                </div>
-            </div>
-        </section>
-
-
-        <section class="nav-compensation clear white-bg" id="performance-pvc-options">
-            <div class="wrapper">
-                <h2 class="great-text align-center mtn mbxs">Performance PVC Window & Door Options</h2>
-            </div>
-            <div class="relative-container two-tone grey">
-                <div class="wrapper-overlay inner-content">                 
-                    <div class="gd-row">
-                        <div class="gd-half gd-columns">
-                            <img src="/images/performance-pvc/tw-pvc-tilt-turn.png">
-                        </div>
-                        <div class="gd-half gd-columns">
-                            <h3 class="absolute-heading canon-text mtn">Tilt & Turn</h3>
-                            <p>Durable, Reinforced Performance</p>
-                            <a class="button special" href="/gallery/pvc-tilt-turn.php">View Gallery</a>
-                        </div>                      
-                    </div>
-                </div>
-            </div>
-            <div class="wrapper inner-content">                 
-                <div class="gd-row">
-                    <div class="gd-half gd-columns">
-                        <img src="/images/performance-pvc/tw-pvc-sliding.png">
-                    </div>
-                    <div class="gd-half gd-columns">
-                        <h3 class="absolute-heading canon-text mtn">Sliding Doors</h3>
-                        <p>Smooth Sliding Into Perfect Fits, Every Time</p>
-                        <a class="button special" href="/gallery/pvc-sliding-doors.php">View Gallery</a>
-                    </div>                      
-                </div>
-            </div>
-    
-            <div class="relative-container two-tone grey">
-                <div class="wrapper-overlay inner-content">                 
-                    <div class="gd-row">
-                        <div class="gd-half gd-columns">
-                            <img src="/images/performance-pvc/tw-pvc-swing.png">
-                        </div>
-                        <div class="gd-half gd-columns">
-                            <h3 class="absolute-heading canon-text mtn">Swing Doors</h3>
-                            <p>Slim Sash and Frame</p>
-                            <a class="button special" href="/gallery/pvc-swing-doors.php">View Gallery</a>
-                        </div>                      
-                    </div>
-                </div>
+        <section class="gallery-projects">
+            <div class="wrapper inner-content">
+                <h1 class="canon-text">Project Gallery</h1>
+                <!--ROW ONE-->
+                <ul class="unstyled media-grid gd-row gt-row">
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-basset-road.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Basset Road, UK</h3>
+                                <img src="images/project--thumbs/tw-project-basset-road.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-bom-jesus.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Bom Jesus, Portugal</h3>
+                                <img src="images/project--thumbs/tw-project-bom-jesus.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-habitatge-spain.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Habitatge, Spain</h3>
+                                <img src="images/project--thumbs/tw-project-habitatge-spain.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                </ul>
+                <!--END ROW-->
+                <!--ROW TWO-->
+                <ul class="unstyled media-grid gd-row gt-row">
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-horizon-switzerland.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Horizon, Switzerland</h3>
+                                <img src="images/project--thumbs/tw-project-horizon-switzerland.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-horizon-poland.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Basset Road, UK</h3>
+                                <img src="images/project--thumbs/tw-project-horizon-poland.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-hurst-house.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Hurst House</h3>
+                                <img src="images/project--thumbs/tw-project-hurst-house.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                </ul>
+                <!--END ROW-->
+                <!--ROW THREE-->
+                <ul class="unstyled media-grid gd-row gt-row">
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-lc-brasil.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">LC House, Brasil</h3>
+                                <img src="images/project--thumbs/tw-project-lc-brasil.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-m-residence-japan.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">M Residence, Japan</h3>
+                                <img src="images/project--thumbs/tw-project-residence-japan.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-museu-portugal.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Museu do C&ocirc;a, Portugal</h3>
+                                <img src="images/project--thumbs/tw-project-museu-portugal.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                </ul>
+                <!--END ROW-->
+                <!--ROW FOUR-->
+                <ul class="unstyled media-grid gd-row gt-row">
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-penthouse-india.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Bombay Penthouse, India</h3>
+                                <img src="images/project--thumbs/tw-project-penthouse-india.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-home-madrid.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Madrid Home, Spain</h3>
+                                <img src="images/project--thumbs/tw-project-home-madrid.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-tl-brasil.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">TL House, Brasil</h3>
+                                <img src="images/project--thumbs/tw-project-tl-brasil.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                </ul>
+                <!--END ROW-->
+                <!--ROW FIVE-->
+                <ul class="unstyled media-grid gd-row gt-row">
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-vendouvres.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Vendouvres</h3>
+                                <img src="images/project--thumbs/tw-project-vendouvres.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-villas-switzerland.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Villas Charvel, SWitzerland</h3>
+                                <img src="images/project--thumbs/tw-project-villas-switzerland.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                    <li class="gd-third gd-columns object">
+                        <a class="white-text" href="project-water-cherry-japan.php">     
+                            <div class="landing-grid--container">                   
+                                <h3 class="landing-grid--heading paragon-text semibold mbxs mlxs caption">Water Cherry, Japan</h3>
+                                <img src="images/project--thumbs/tw-project-water-cherry-japan.jpg">    
+                            </div>                      
+                        </a>
+                    </li>
+                </ul>
+                <!--END ROW-->
             </div>
         </section>
-
-
-
-        
-
 
 
     </main>
