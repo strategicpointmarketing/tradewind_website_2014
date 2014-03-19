@@ -35,6 +35,8 @@
 								<label for="Message">Message</label><br />
 								<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
 
+								<input type="hidden" name="loadtime" value="<?php echo time(); ?>">
+								
 								<input type="submit" name="submit" value="Submit" class="button primary" />
 							</div>
 						</form>

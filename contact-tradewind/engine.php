@@ -33,8 +33,15 @@ $Body .= "\n";
 $Headers = "From: $Email \r\n";
 $Headers .= "Reply-To: $Email \r\n";
 
-// send email 
-$success = mail($EmailTo, $Subject, $Body, $Headers);
+$loadtime = $_POST["loadtime"];
+
+$totaltime = time() - $loadtime;
+
+if($totaltime > 3)
+{
+	// send email 
+	$success = mail($EmailTo, $Subject, $Body, $Headers);
+}
 
 // redirect to success page 
 if ($success){
