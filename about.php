@@ -18,10 +18,30 @@
 		<a href="#back-to-top" class="back-to-top">back to top</a>
 
 		<section class="about-tradewind" id="tradewind">
+			<div class="wrapper inner-content">
+				<div class="align-center">
+					<img src="/images/tradewind-logo.png">
+					<h2 class="great-text mvxs semibold">The Best From Around The World</h2>
+				</div>
+
+				<p class="pts">Tradewind Distribution continues to strive to find the best technologies and combine them with the most demanding architectural aesthetics to bring the most sought after window and door products in the high end window and door market.  Our clients have strict  demands to deliver unique homes while thinking outside the box.  They search for companies willing to be flexible and forward thinking.  Our motto is "if you can design it, and it can be engineered, then we will build it!"</p>
+				
+
+				<img src="/images/process/tw-process-step5.png" class="pvxl">					
+				
+				<p>Not many companies can deliver products that satisfy these demands.  Tradewind has made it our everyday strategy to not only deliver these products, but do so in the most diverse way.  While most companies will supply a wood window, or aluminum, or pvc line only, Tradewind has an extensive offering of windows and doors in custom wood, elite aluminum, performance pvc, and even monumental doors with minimal sightlines.</p>
+
+				<p class="pbl">We have not locked our customers into a limited choice with the typical "this is what we do, pick it from our catalog" approach.  We specialize in highly technological and performance windows. Our diverse offering just limits our customers choice to the best choice... One source. One trusted window supplier &amp; installer... Tradewind Distribution.</p>
+
+ 
+
+				
+			</div>
+
 
 		</section>
 
-		<section class="about-panoramah" id="panoramah">
+		<section class="about-panoramah border-divider" id="panoramah">
 			<div class="wrapper inner-content">
 				<div class="gd-row">
 					<div class="gd-two-thirds gd-columns">
@@ -33,7 +53,7 @@
 					</div>
 					
 				</div>
-				<h2 class="great-text mvxs semibold">The Minimal Frame Window</h2>
+				<h2 class="great-text mvs semibold">The Minimal Frame Window</h2>
 				
 					<p>The purpose of the panoramic window is to consider the cut-out made in a façade as a direct link between solid spaces and voids, to allow an objective interactivity between interior and exterior that fulfils the premise so dear to both the Modernist and Minimalist movements; namely, the desire to frame Nature without manipulating it or disturbing the perception of it.</p>
 					<p>According to Le Corbusier, it introduces "the vastness of the outside world, the unity, impossible to counterfeit, of a landscape with tempest and radiant calm". </p>
@@ -54,8 +74,8 @@
 
 		</section>
 
-		<section class="about-tw-windows nav-compensation" id="tw-windows">
-			<div class="relative-container border-divider">
+		<section class="about-tw-windows nav-compensation border-divider" id="tw-windows">
+			<div class="relative-container">
 				<div class="wrapper pts pbm">
 					<div class="align-center mtxs mbs">
 						<a href="http://www.tw-windows.com" target="_blank">

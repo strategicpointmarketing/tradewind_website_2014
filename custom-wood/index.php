@@ -60,7 +60,7 @@
 
 		<section class="nav-compensation clear white-bg" id="custom-wood-windows">
 			<div class="wrapper">
-				<h2 class="great-text align-center mtn mbxs">Minimal Framed Wooden Windows</h2>
+				<h2 class="great-text align-center mtn mbxs">Custom Wooden Windows</h2>
 			</div>
 			<div class="relative-container two-tone grey">
 				<div class="wrapper-overlay inner-content">					
