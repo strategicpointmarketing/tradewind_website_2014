@@ -42,7 +42,7 @@
 		<section id="performance-pvc-desc">
 			<div class="wrapper ptm pbxl align-center">
 			
-				<h2 class="canon-text mtxs capitalize">Anything but typical</h2>
+				<h2 class="canon-text mtxs capitalize">Styles That You Desire With High Level Performance You Demand</h2>
 				
 				<p>Our PVC line is a highly engineered window system that combines steel for strength, multi-layered air chambered PVC for performance, while incorporating world leading hardware systems, and adding high performance glazing capabilities.  This is why the Trade Wind performance PVC is the number one window type being used in Europe today.</p>
 
@@ -54,7 +54,15 @@
 
 		<section class="performance-pvc-info">
 			<div class="relative-container info-img performance-pvc">
-				&nbsp;
+				<div class="trans-blk-bg absolute-container pvs">
+					<div class="wrapper">
+						<div class="caption__left">
+							<p class="mtn white-text primer-text italic">
+								With our home on the water, a extremely resistant  material to the elements was key to our decision. With this product we got it all! Performance, high sound rating, aesthetic beauty, and little to no maintenance.  The mahogany looks so good people say wow can’t believe you installed stained mahogany wood windows.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 

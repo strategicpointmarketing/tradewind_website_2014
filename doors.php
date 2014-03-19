@@ -17,6 +17,7 @@
 		
 		<section class="doors-landing">
 				<div class="wrapper ptl pbm">
+					 <h1 class="canon-text mtn mbxs">Doors</h1>
 				<div class="gd-row">
 					<div class="gd-third gd-columns">
 						<a class="white-text" href="custom-wood/index.php">		
@@ -55,8 +56,10 @@
 						</a>
 					</div>
 					<div class="gd-third gd-columns">
-						<h3 class="thin paragon-text align-center mtn mbs">Visit Panoramah</h3>
-							<a href="http://panoramah.com/" target="_blank"><img src="images/panoramah-logo.png"></a>
+						<div class="align-center">
+							<a href="http://tw-windows.com" target="_blank"><img class="mbs" width="70%" height="70%" src="images/tw-windows-logo.png"></a>
+							<a href="http://panoramah.com/" target="_blank"><img width="70%" height="70%" src="images/panoramah-logo.png"></a>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -579,6 +579,12 @@ Text Transform
 .capitalize {
   text-transform: capitalize;
 }
+/*
+Font Style
+*/
+.italic {
+  font-style: italic;
+}
 a {
   text-decoration: none;
 }
@@ -594,6 +600,7 @@ a {
   -moz-background-clip: padding;
   background-clip: padding-box;
   outline: 0;
+  border: 0;
   overflow: visible;
   cursor: pointer;
   vertical-align: middle;
@@ -1621,7 +1628,9 @@ Padding Inner Content
   border-top: 10px solid #b22828;
 }
 .border-divider {
-  border-top: solid 1px #d9d9d9;
+  -webkit-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0 20px 20px -20px rgba(0, 0, 0, 0.3);
   border-bottom: solid 1px #d9d9d9;
 }
 .two-tone {
@@ -1647,6 +1656,7 @@ Padding Inner Content
 }
 .hero-tone {
   height: 400px;
+  background: #000000;
 }
 .hero-tone:before {
   content: "";
@@ -1781,6 +1791,35 @@ Padding Inner Content
   z-index: 3;
   left: 0;
   bottom: 0;
+}
+.absolute-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.contact-form {
+  padding-top: 1.25em;
+}
+.contact-form label {
+  width: 120px;
+  padding-right: 15px;
+  text-align: right;
+  font-weight: bold;
+  float: left;
+}
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  width: 240px;
+}
+.contact-form textarea {
+  height: 142px;
+}
+.contact-form input {
+  margin-left: 120px;
+}
+.footer-border {
+  border-top: 1px solid #d9d9d9;
 }
 .tradewind-process .flex-control-paging {
   display: none;

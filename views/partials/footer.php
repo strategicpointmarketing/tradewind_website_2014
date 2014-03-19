@@ -1,4 +1,4 @@
-<div class="relative-container white-bg border-divider clear">
+<div class="relative-container white-bg footer-border clear">
 	<div class="wrapper pvm">
 		<div class="gd-row">
 			<div class="gd-quarter gd-columns">
@@ -27,13 +27,15 @@
 				</ul>
 			</div>
 			<div class="gd-quarter gd-columns">
-				<h4 class="secondary-heading paragon-text">Doors</h4>
+				<h4 class="secondary-heading paragon-text">Connect</h4>
 				<ul class="unstyled footer-nav">
-					<li><a href="/custom-wood/index.php">Custom Wood</a></li>
-					<li><a href="/elite-aluminum/index.php">Elite Aluminum</a></li>
-					<li><a href="/performance-pvc/index.php">Performance PVC</a></li>
-					<li><a href="/minimal-frame/index.php">Minimal Frame</a></li>
+					<li><a href="/contact-tradewind/">Contact Tradewind</a></li>
 				</ul>
+				<div class="mtxs">
+					<a href="https://www.facebook.com/tradewind.distribution" target="_blank"><img src="/images/tw-icon-fb.png"></a>
+					<a href="https://twitter.com/TradewindUS" target="_blank"><img src="/images/tw-icon-tw.png"></a>
+					<a href="https://plus.google.com/107392087594673255538/posts" target="_blank"><img src="/images/tw-icon-gp.png"></a>
+				</div>
 			</div>
 		</div>
 	</div>

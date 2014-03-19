@@ -17,22 +17,90 @@
 
 		<a href="#back-to-top" class="back-to-top">back to top</a>
 
-		<section class="about-tw-windows" id="tw-windows">
+		<section class="about-tradewind" id="tradewind">
 
 		</section>
 
 		<section class="about-panoramah" id="panoramah">
 			<div class="wrapper inner-content">
-				<img src="/images/about/panoramah-hero.jpg">
-				<h1 class="great-text thin mbxs mtxs">About Panoramah</h1>
-				<div class="four-col">
-					<p class="mtn petite-text">The purpose of the panoramic window is to consider the cut-out made in a façade as a direct link between solid spaces and voids, to allow an objective interactivity between interior and exterior that fulfils the premise so dear to both the Modernist and Minimalist movements; namely, the desire to frame Nature without manipulating it or disturbing the perception of it. According to Le Corbusier, it introduces "the vastness of the outside world, the unity, impossible to counterfeit, of a landscape with tempest and radiant calm". While traditional window systems use glass as a filler and the frame as a structural support, we work with the intrinsic characteristic of glass and give it the function of a self-supporting element, free to slide within a frame with no constraints regarding its dimensions.Thus the panoramic window takes on its full significance, detaching itself from dimensional constraints and henceforth only measuring itself against the static limitations of the glass itself. The frame, transformed into a guide that controls movements, may thus be integrated and levelled out around the whole periphery of the opening, doing away with sills between the interior and the exterior, totally destroying any intrusive lines and disappearing into the background so as to give way to an independent structure. Our PANORAMAH! system of sliding windows also meets the most stringent technical requirements, providing guaranteed thermal insulation, and the excellent watertightness. There is no limit on the number of casements; they can be motorised, and full opening angles are one of the details we have completely mastered. What is more, it is possible to design window systems with up to 4 rails.The size of our casements is limited by the sheets of glass available on the market; namely 18m2. The maximum height of our components is 6000mm. </p>
+				<div class="gd-row">
+					<div class="gd-two-thirds gd-columns">
+						<img src="/images/about/panoramah-hero.jpg">
+					</div>
+					<div class="gd-third gd-columns">
+						<a href="http://panoramah.com" target="_blank"><img src="/images/panoramah-logo.png"></a>
+						<a class="button primary" href="http://panoramah.com" target="_blank">Learn More</a>
+					</div>
+					
+				</div>
+				<h2 class="great-text mvxs semibold">The Minimal Frame Window</h2>
+				
+					<p>The purpose of the panoramic window is to consider the cut-out made in a façade as a direct link between solid spaces and voids, to allow an objective interactivity between interior and exterior that fulfils the premise so dear to both the Modernist and Minimalist movements; namely, the desire to frame Nature without manipulating it or disturbing the perception of it.</p>
+					<p>According to Le Corbusier, it introduces "the vastness of the outside world, the unity, impossible to counterfeit, of a landscape with tempest and radiant calm". </p>
+
+					<p>While traditional window systems use glass as a filler and the frame as a structural support, we work with the intrinsic characteristic of glass and give it the function of a self-supporting element, free to slide within a frame with no constraints regarding its dimensions.</p>
+
+					<p>Thus the panoramic window takes on its full significance, detaching itself from dimensional constraints and henceforth only measuring itself against the static limitations of the glass itself.</p>
+					<p>The frame, transformed into a guide that controls movements, may thus be integrated and levelled out around the whole periphery of the opening, doing away with sills between the interior and the exterior, totally destroying any intrusive lines and disappearing into the background so as to give way to an independent structure.</p>
+
+					<p>Our PANORAMAH! system of sliding windows also meets the most stringent technical requirements, providing guaranteed thermal insulation, and the excellent watertightness. There is no limit on the number of casements; they can be motorised, and full opening angles are one of the details we have completely mastered.</p>
+
+					<p>What is more, it is possible to design window systems with up to 4 rails. The size of our casements is limited by the sheets of glass available on the market; namely 18m2. The maximum height of our components is 6000mm. </p>
 
  
 
-				</div>
+				
 			</div>
 
+		</section>
+
+		<section class="about-tw-windows nav-compensation" id="tw-windows">
+			<div class="relative-container border-divider">
+				<div class="wrapper pts pbm">
+					<div class="align-center mtxs mbs">
+						<a href="http://www.tw-windows.com" target="_blank">
+							<img class="float-center" src="/images/tw-windows-logo.png">
+						</a>
+					</div>
+					<h2 class="great-text mtn semibold align-center">Perfect Results Occur When Artistry Meets Performance</h2>
+					<h3 class="paragon-text align-center secondary-heading">Blending Products To Fit Your Needs</h3>
+					<p class="bold">Rely On Our Experience</p>
+<p>Our Worldwide Reach incorporates the world’s leading engineering and manufacturing technology, combining design, new technologies, and modern & old-world styles to achieve the ultimate array of door and window products.</p>
+<p>Great companies separate themselves from the very start. We recognize the architecture and construction that goes into creating a dream home. So, when it comes to delivering a window package, we always begin with the end product in mind.</p>
+<p>Once you receive our detailed proposal, we encourage you to study it closely. Note how it differs from other proposals you’ve seen in the past. You will see how we’ve poured over the details to provide in-depth, practical plans that detail each phase of your project.</p>
+<p>We start every project with comprehensive drawings that explain exactly how we will fulfill and deliver.</p>
+
+			<div class="align-center mbxs mts">
+				<a class="button primary" href="http://www.tw-windows.com" target="_blank">Check Out Our Full Customizable Lines</a>
+			</div>
+			<div class="gd-row">
+				<div class="gd-third gd-columns">
+					<h4 class="primer-text semibold">Custom Wood</h4>
+					<ul>
+						<li>Double Hung </li>
+						<li>Tilt & Turn </li>
+						<li>Casements</li>
+						<li>Sliding Doors </li>
+						<li>Swing Doors</li>
+					</ul>
+				</div>
+				<div class="gd-third gd-columns">
+					<h4 class="primer-text semibold">Elite Aluminum</h4>
+					<ul>
+						<li>Tilt & Turn</li>
+						<li>Curtain wall</li>
+						<li>Sliding doors </li>
+						<li>Swing doors</li>
+					</ul>
+				</div>
+			<div class="gd-third gd-columns">
+					<h4 class="primer-text semibold">Performance PVC</h4>
+					<ul>
+						<li>Tilt & Turn</li>
+						<li>Sliding doors </li>
+						<li>Swing doors</li>
+					</ul>
+				</div>
 		</section>
 
 

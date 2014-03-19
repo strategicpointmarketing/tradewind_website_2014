@@ -17,7 +17,7 @@
 
         <section class="gallery-projects">
             <div class="wrapper inner-content">
-                <h1 class="canon-text">Project Gallery</h1>
+                <h1 class="canon-text mtn">Project Gallery</h1>
                 <!--ROW ONE-->
                 <ul class="unstyled media-grid gd-row gt-row">
                     <li class="gd-third gd-columns object">

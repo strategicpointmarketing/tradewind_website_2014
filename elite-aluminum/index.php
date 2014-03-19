@@ -41,7 +41,7 @@
 		<section id="elite-aluminum-desc">
 			<div class="wrapper ptm pbxl align-center">
 			
-				<h2 class="canon-text mtxs capitalize">the benefits of aluminum without all the limitations</h2>
+				<h2 class="canon-text mtxs capitalize">The benefits of aluminum without all the limitations</h2>
 				<h3 class="secondary-heading paragon-text capitalize mtxs">Over 50 Mix and Match Systems Guaranteed To Fit Any Project
 </h3>
 				
@@ -55,7 +55,15 @@ For example in the aluminum line you can still have the look of wood with a cust
 
 		<section class="elite-aluminum-info">
 			<div class="relative-container info-img elite-aluminum">
-				&nbsp;
+				<div class="trans-blk-bg absolute-container pvs">
+					<div class="wrapper">
+						<div class="caption__left">
+							<p class="white-text mtn italic">
+								On a 300+ foot wide and 8-story tall façade, with every angle and fenestration layout being different to allow the apartments to be unique, all the angles connected with very little tolerance. The level of detail required a commitment of time and effort that was nothing short of substantial. The project was completed on time and with precision due to our experience, knowledge, and a keen understanding of the engineering and capabilities of each element of the project.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 

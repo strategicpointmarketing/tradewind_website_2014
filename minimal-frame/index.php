@@ -27,7 +27,8 @@
 								<a class="button primary mrxs" href="#minimal-frame-internal">Internal Series</a>
 								<a class="button primary" href="#minimal-frame-external">External Series</a>
 
-								<p class="petite-text mtxs">The purpose of the panoramic window is to consider the cut-out made in a façade as a direct link between solid spaces and voids, to allow an objective interactivity between interior and exterior that fulfils the premise so dear to both the Modernist and Minimalist movements; namely, the desire to frame Nature without manipulating it or disturbing the perception of it.</p>
+								<p class="petite-text mtxs">This state of the minimal window technology includes optimal thermal and acoustic insulation, high weather resistance and security solutions. The high level of technology used within frames makes it top performing.</p>
+								<p>Durability &nbsp;&nbsp;|&nbsp;&nbsp;  Transparency &nbsp;&nbsp;|&nbsp;&nbsp;  Insulation</p>
 							</div>
 
 
@@ -41,15 +42,14 @@
 		<section id="elite-aluminum-desc">
 			<div class="wrapper ptm pbxl align-center">
 			
-				<h2 class="canon-text mtxs capitalize">The PANORAMAH! Minimal Frame Window Is Inspired By One Of The Five Fundamental Points Developed By Le Corbusier.</h2>
-				<h3 class="secondary-heading paragon-text capitalize mtxs">The Minimal Frame Window - Nature Uninhibited.</h3>
+				<h2 class="canon-text mtxs capitalize">Minimal Frame</h2>
+				<h3 class="secondary-heading paragon-text capitalize mtxs">We exceed where others end.</h3>
 				
-				<p>According to Le Corbusier, the panoramic window  introduces “the vastness of the outside world, the unity, impossible to counterfeit, of a landscape with
-tempest and radiant calm”. While traditional window systems use glass as a filler and the frame as a structural support, we work with the intrinsic characteristic
-of glass and give it the function of a self-supporting element, free to slide within a frame with no constraints regarding its dimensions.</p>
+				<p>Our minimal frame system makes the impossible possible defying the laws of physics.  Deeply rooted in engineering and with unique technology that makes the product possible. With a vast array of options never seen before in the USA, Trade Wind with Panoramah is creating a new definition to minimal frame context.   Options range from panels 16 foot wide by 8 foot tall with a door that creates a post less  than 90 degree from the corner.  This attached to another sliding door that is 38 feet wide 3 panel.  Simply press a button and everything automatically opens so your inside is now outside. </p>
 
-				<p>Thus the panoramic window takes on its full significance, detaching itself from dimensional constraints and henceforth only measuring itself against the static limitations of the glass itself.
-				</p>
+				<p>Also available in this unique system are vertical sliders and pivot doors. With the vertical slider you have the same visual components of the sliding door but now you can create open spaces that raise up instead of sliding to the side.  With this option you can have a window 30 feet wide by 10 feet tall raise into the air and be able to walk under or have it disappear into the floor. You can chose the pivot system that can allow for large door sash sizes that pivot effortlessly and create a very dramatic effect. </p>
+
+				<p>Also available in this unique system are vertical sliders and pivot doors. With the vertical slider you have the same visual components of the sliding door but now you can create open spaces that raise up instead of sliding to the side.  With this option you can have a window 30 feet wide by 10 feet tall raise into the air and be able to walk under or have it disappear into the floor. You can chose the pivot system that can allow for large door sash sizes that pivot effortlessly and create a very dramatic effect.</p>
 
 			</div>
 			

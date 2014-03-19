@@ -2,7 +2,7 @@
 <?php include('views/partials/globalHead.php'); ?>
 <!-- End Global Head -->
 
-<body class="silver-bg">
+<body>
 	
 	<header>
 		
