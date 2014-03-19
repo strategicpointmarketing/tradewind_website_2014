@@ -26,8 +26,8 @@
 								<label for="Name">Name</label>
 								<input type="text" name="Name" id="Name" />
 								
-								<label for="City">Location</label>
-								<input type="text" name="City" id="City" />
+								<label for="Tel">Telephone</label>
+								<input type="text" name="Tel" id="Tel" />
 					
 								<label for="Email">Email</label>
 								<input type="text" name="Email" id="Email" />

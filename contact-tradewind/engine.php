@@ -30,14 +30,31 @@ $Body .= "Message: ";
 $Body .= $Message;
 $Body .= "\n";
 
+$Headers = "From: $Email \r\n";
+$Headers .= "Reply-To: $Email \r\n";
+
 // send email 
-$success = mail($EmailTo, $Subject, $Body, "From: <$EmailFrom>");
+$success = mail($EmailTo, $Subject, $Body, $Headers);
 
 // redirect to success page 
 if ($success){
+	//dump data into a CSV file
+	
+	$line = "$Name,$Tel,$Email,$Message," . date('d-m-Y');
+	$handle = fopen("submissions.csv", "a");
+	fputcsv($handle, explode(',',$line));
+	fclose($handle);
+
+	
+
+
   print "<meta http-equiv=\"refresh\" content=\"0;URL=/contact-tradewind/thanks.php\">";
+
+
 }
 else{
   print "<meta http-equiv=\"refresh\" content=\"0;URL=/contact-tradewind/error.php\">";
 }
+
+
 ?>
