@@ -32,7 +32,7 @@
 								<label for="Email">Email</label>
 								<input type="text" name="Email" id="Email" />
 								
-								<label for="Message">Message</label><br />
+								<label for="Message">Message</label>
 								<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
 
 								<input type="hidden" name="loadtime" value="<?php echo time(); ?>">
