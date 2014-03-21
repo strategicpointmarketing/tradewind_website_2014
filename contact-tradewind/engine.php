@@ -1,7 +1,7 @@
 <?php
 
 $EmailFrom = "<$EmailFrom>";
-$EmailTo = "webteam@strategicpointmarketing.com";
+$EmailTo = "sales@tradewind-distribution.com";
 $Subject = "Tradewind Distribution: Contact Submission";
 $Name = Trim(stripslashes($_POST['Name'])); 
 $Tel = Trim(stripslashes($_POST['Tel'])); 
