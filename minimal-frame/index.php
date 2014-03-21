@@ -49,8 +49,7 @@
 
 				<p>Also available in this unique system are vertical sliders and pivot doors. With the vertical slider you have the same visual components of the sliding door but now you can create open spaces that raise up instead of sliding to the side.  With this option you can have a window 30 feet wide by 10 feet tall raise into the air and be able to walk under or have it disappear into the floor. You can chose the pivot system that can allow for large door sash sizes that pivot effortlessly and create a very dramatic effect. </p>
 
-				<p>Also available in this unique system are vertical sliders and pivot doors. With the vertical slider you have the same visual components of the sliding door but now you can create open spaces that raise up instead of sliding to the side.  With this option you can have a window 30 feet wide by 10 feet tall raise into the air and be able to walk under or have it disappear into the floor. You can chose the pivot system that can allow for large door sash sizes that pivot effortlessly and create a very dramatic effect.</p>
-
+			
 			</div>
 			
 		</section>
