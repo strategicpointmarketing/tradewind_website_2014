@@ -217,9 +217,9 @@
 			<div class="relative-container stretch-bg--brand-promise">
 				<div class="wrapper">
 					<div class="gd-row">
-						<div class="gd-half float-left pbxl pm trans-blk-bg align-center">
-							<h3 class="great-text white-text">Outstanding Results</h3>
-							<p class="white-text paragon-text thin mbl">Once we understand your vision and desired options and features, we draw upon the capabilities of our network of the world’s most advanced manufacturers and our own expertise in service and installation to achieve your absolute satisfaction.</p>
+						<div class="gd-half float-left pbxl pm trans-white-bg align-center">
+							<h3 class="great-text">Outstanding Results</h3>
+							<p class="paragon-text thin mbl">Once we understand your vision and desired options and features, we draw upon the capabilities of our network of the world’s most advanced manufacturers and our own expertise in service and installation to achieve your absolute satisfaction.</p>
 						</div>
 					</div>
 				</div>

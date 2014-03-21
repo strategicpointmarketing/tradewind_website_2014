@@ -1,6 +1,6 @@
 <nav class="main-nav sticky-nav">
 	<div class="wrapper">
-		<a href="/"><img width="295" height="36" class="float-left mtxs mrxs" src="/images/tradewind-logo.png"></a>
+		<a href="/"><img class="float-left mtxs mrxs" src="/images/tradewind-logo.png"></a>
 		<ul class="unstyled mtn">
 			<li><a href="/index.php">Home</a></li>
 			<li><a href="/coming-soon.php">Architectural Center</a></li>

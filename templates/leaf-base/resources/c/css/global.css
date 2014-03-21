@@ -1887,6 +1887,9 @@ Padding Inner Content
 .trans-blk-bg {
   background: rgba(0, 0, 0, 0.8);
 }
+.trans-white-bg {
+  background: rgba(255, 255, 255, 0.8);
+}
 .white-bg {
   background: #ffffff;
 }
