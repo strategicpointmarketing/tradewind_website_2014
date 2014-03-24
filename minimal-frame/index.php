@@ -24,11 +24,11 @@
 								<h1 class="great-text semibold mtn">Minimal Frame</h1>
 					
 
-								<a class="button primary mrxs" href="#minimal-frame-internal">Internal Series</a>
-								<a class="button primary" href="#minimal-frame-external">External Series</a>
+								<a class="button primary mrxs" href="#minimal-frame-slide">Sliding Series</a>
+								<a class="button primary" href="#minimal-frame-pivot">Pivot Series</a>
+								<a class="button primary" href="#minimal-frame-v-slide">Vertical Sliding Series</a>
 
-								<p class="petite-text mtxs">This state of the minimal window technology includes optimal thermal and acoustic insulation, high weather resistance and security solutions. The high level of technology used within frames makes it top performing.</p>
-								<p>Durability &nbsp;&nbsp;|&nbsp;&nbsp;  Transparency &nbsp;&nbsp;|&nbsp;&nbsp;  Insulation</p>
+								<p class="petite-text mts">This state of the minimal window technology includes optimal thermal and acoustic insulation, high weather resistance and security solutions. The high level of technology used within frames makes it top performing.</p>
 							</div>
 
 
@@ -62,68 +62,50 @@
 
 		<section class="nav-compensation clear white-bg" id="minimal-frame-internal">
 			<div class="wrapper">
-				<h2 class="great-text align-center mtn mbxs">Internal Minimal Frame Series</h2>
-			</div>
-			<div class="relative-container two-tone grey">
-				<div class="wrapper-overlay inner-content">					
-					<div class="gd-row">
-						<div class="gd-half gd-columns">
-							<img src="/images/minimal-frame/tw-min-frame-internal-10-series.jpg">
-						</div>
-						<div class="gd-half gd-columns">
-							<h3 class="absolute-heading canon-text mtn">10 Series</h3>
-							<p>This series stands out for its most appropriate use for interior partitions and spaces where the acoustic and thermal insulation doesn’t have much impact. A monolithic system that allows minimalist / windows partitions with glass surface up to 3m2.</p>
-						</div>						
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="nav-compensation clear white-bg" id="minimal-frame-external">
-			<div class="wrapper">
-				<h2 class="great-text align-center mtn mbxs">External Minimal Frame Series</h2>
-			</div>
-			<div class="wrapper inner-content">					
-				<div class="gd-row">
-					<div class="gd-half gd-columns">
-						<img src="/images/minimal-frame/tw-min-frame-external-26-series.jpg">
-					</div>
-					<div class="gd-half gd-columns">
-						<h3 class="absolute-heading canon-text mtn">26 Series</h3>
-						<p>
-This series is used for exterior and allows a good acoustic and termal insulation, and, by its thin characteristics, it is more used in warm and tropical countries construction (eg.: India and Brazil). It is a system that allows the inclusion of an inside mosquito net as well as exterior shutters.
-It is a system that allows minimalist double glazed windows with glass surface up to 6m2 with or without motorization.</p>
-
-					</div>						
-				</div>
+				<h2 class="great-text align-center mtn mbxs">Minimal Frame Doors &amp; Windows</h2>
 			</div>
 	
-			<div class="relative-container two-tone grey">
+			<div class="relative-container two-tone grey" id="minimal-frame-slide">
 				<div class="wrapper-overlay inner-content">					
 					<div class="gd-row">
 						<div class="gd-half gd-columns">
-							<img src="/images/minimal-frame/tw-min-frame-external-38-series.jpg">
+							<img src="/images/minimal-frame/tw-minimal-frame-sliding-series.jpg">
 						</div>
 						<div class="gd-half gd-columns">
-							<h3 class="absolute-heading canon-text mtn">38 Series</h3>
-							<p>This series is used for exterior and allows an excellent acoustic and thermal insulation. This structural characteristics permit the inclusion of a mosquito net, interior shutters or blinds, and also offer the possibility of a heated glass system.</p>
-
-							<p>It is a system that allows minimalist double glazed windows with glass surface until 18 m2 with or without motorization.</p>
+							<h3 class="absolute-heading canon-text mtn">Sliding Windows &amp; Doors</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu purus vel lorem sagittis venenatis ut quis turpis. In quam felis, pulvinar sit amet nisi quis, vehicula ornare arcu. Nullam eleifend leo urna, vel pellentesque lectus facilisis a. Praesent consequat quis sapien et condimentum. Aliquam vel mi at ante posuere posuere. Sed erat enim, dapibus sed condimentum quis, vestibulum ac ante. </p>
+							<a class="button special" href="/gallery/min-frame-sliding.php">View Gallery</a>
 						</div>						
 					</div>
 				</div>
 			</div>
 
-			<div class="wrapper inner-content">					
+			<div class="wrapper inner-content" id="minimal-frame-pivot">					
 				<div class="gd-row">
 					<div class="gd-half gd-columns">
-						<img src="/images/minimal-frame/tw-min-frame-external-54-series.jpg">
+						<img src="/images/minimal-frame/tw-minimal-frame-pivot-series.jpg">
 					</div>
 					<div class="gd-half gd-columns">
-						<h3 class="absolute-heading canon-text mtn">54 Series</h3>
-						<p>This series is used for exterior and has the particularity to allow a unique acoustic and thermal insulation . Its acoustic and thermic results are the highest of our products. So, Panoramah! 54 is perfect for Nordic and cold climates, providing high comfort and secure environments.</p>
-							<p>This structural characteristics permit the inclusion of a mosquito net, interior shutters or blinds , and also offer the possibility of a heated glass system . It is a dual or triple-glazed window system that allows minimalist glass surface up to 18 m2 with or without motorization.</p>
+						<h3 class="absolute-heading canon-text mtn">Pivot Windows &amp; Doors</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu purus vel lorem sagittis venenatis ut quis turpis. In quam felis, pulvinar sit amet nisi quis, vehicula ornare arcu. Nullam eleifend leo urna, vel pellentesque lectus facilisis a. Praesent consequat quis sapien et condimentum. Aliquam vel mi at ante posuere posuere. Sed erat enim, dapibus sed condimentum quis, vestibulum ac ante. </p>
+						<a class="button special" href="/gallery/min-frame-pivot.php">View Gallery</a>
+
 					</div>						
+				</div>
+			</div>
+
+			<div class="relative-container two-tone grey" id="minimal-frame-v-slide">
+				<div class="wrapper-overlay inner-content">					
+					<div class="gd-row">
+						<div class="gd-half gd-columns">
+							<img src="/images/minimal-frame/tw-minimal-frame-vertical-sliding-series.jpg">
+						</div>
+						<div class="gd-half gd-columns">
+							<h3 class="absolute-heading canon-text mtn">Vertical Sliding Windows &amp; Doors</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu purus vel lorem sagittis venenatis ut quis turpis. In quam felis, pulvinar sit amet nisi quis, vehicula ornare arcu. Nullam eleifend leo urna, vel pellentesque lectus facilisis a. Praesent consequat quis sapien et condimentum. Aliquam vel mi at ante posuere posuere. Sed erat enim, dapibus sed condimentum quis, vestibulum ac ante. </p>
+							<a class="button special" href="/gallery/min-frame-v-sliding.php">View Gallery</a>
+						</div>						
+					</div>
 				</div>
 			</div>
 
