@@ -73,7 +73,7 @@
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="absolute-heading canon-text mtn">Sliding Windows &amp; Doors</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu purus vel lorem sagittis venenatis ut quis turpis. In quam felis, pulvinar sit amet nisi quis, vehicula ornare arcu. Nullam eleifend leo urna, vel pellentesque lectus facilisis a. Praesent consequat quis sapien et condimentum. Aliquam vel mi at ante posuere posuere. Sed erat enim, dapibus sed condimentum quis, vestibulum ac ante. </p>
+							<p>This series of sliding units combines two elements that typically don't go together - minimal site lines and very large venting units. This product features industry-leading sizes larger than what most people think is possible with only small slivers of visible aluminum.  With a wide ranges of configurations, colors, finishes, materials, and glazing, architectural design freedom is at its best.  Take the time to learn more about the possibilities and you will see how this product can take your project to a whole new level. Imagine pushing a button and a 60-foot-wide three-panel door disappears - a wall of glass that is no more. </p>
 							<a class="button special" href="/gallery/min-frame-sliding.php">View Gallery</a>
 						</div>						
 					</div>
@@ -87,7 +87,7 @@
 					</div>
 					<div class="gd-half gd-columns">
 						<h3 class="absolute-heading canon-text mtn">Pivot Windows &amp; Doors</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu purus vel lorem sagittis venenatis ut quis turpis. In quam felis, pulvinar sit amet nisi quis, vehicula ornare arcu. Nullam eleifend leo urna, vel pellentesque lectus facilisis a. Praesent consequat quis sapien et condimentum. Aliquam vel mi at ante posuere posuere. Sed erat enim, dapibus sed condimentum quis, vestibulum ac ante. </p>
+						<p>Why limit the grandness of an entryway by restricting how much a hinge can handle? Expand the view and take advantage of a much larger sized panel that pivots on two anchor points in the sill.  Walk up to what appears as a wall of glass and be able to vent it with ease. This is a very clean look, reducing the amount of visible frames that would be necessary with more conventional doors systems.</p>
 						<a class="button special" href="/gallery/min-frame-pivot.php">View Gallery</a>
 
 					</div>						
@@ -102,7 +102,7 @@
 						</div>
 						<div class="gd-half gd-columns">
 							<h3 class="absolute-heading canon-text mtn">Vertical Sliding Windows &amp; Doors</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eu purus vel lorem sagittis venenatis ut quis turpis. In quam felis, pulvinar sit amet nisi quis, vehicula ornare arcu. Nullam eleifend leo urna, vel pellentesque lectus facilisis a. Praesent consequat quis sapien et condimentum. Aliquam vel mi at ante posuere posuere. Sed erat enim, dapibus sed condimentum quis, vestibulum ac ante. </p>
+							<p>This series has a unique functionality where the sashes slide up and down instead of left and right with very minimal horizontal mullions between venting sashes.  The window can drop into the floor so all viable glass will disappear. This product is great for areas where clients want wall-to-wall glass but have the ability to vent all the glass leaving a completely clear opening. Very large sizes can be achieved with this product that can be operated manually or with motorization. </p>
 							<a class="button special" href="/gallery/min-frame-v-sliding.php">View Gallery</a>
 						</div>						
 					</div>
