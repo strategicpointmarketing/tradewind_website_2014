@@ -49,7 +49,7 @@ $(document).ready(function() {
             pluginOptions: {
                 "controlNav": true,
                 "directionNav": false,
-                "slideshowSpeed": 12000
+                "slideshowSpeed": 5000
             }
         },
 
