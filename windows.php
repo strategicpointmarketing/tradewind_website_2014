@@ -1,6 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global Meta -->
+<?php include('views/partials/globalMeta.php'); ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Tradewind Distribution</title>
+<meta name="description" content="North America's largest custom wood distributor. Tradewind combines the flexibility and attention to detail of a traditional custom millwork shop and the production efficiencies of a mass producer.">
+<meta name="keywords" content="traditional windows, double hung, single hung, triple hung, true divided lites,custom wood windows, custom wood doors, architectural windows, contemporary wood windows, wood storefront windows, inswing casement windows, weight and chain windows, rustic windows, corner windows, wood window walls, impact doors, bifolding doors, bi-folding doors, opening glass walls, Nanawall, true divided lite, impact windows, Douglas Fir, mahogany windows, lift and slide doors, bronze clad windows, yellow cedar windows, french casement windows, historical windows, custom wood doors, hurricane tested windows, impact resistant windows, restoration glass">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
+<?php include('views/partials/globalHead.php'); ?>
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	

@@ -1,13 +1,17 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>Tradewind Distribution</title>
-	
-	<!-- Styles -->
-	<!--[if lt IE 9]><link href="/templates/leaf-base/resources/c/css/global-fixed.css" rel="stylesheet"><![endif]-->
-	<!--[if gt IE 8]><!--><link href="/templates/leaf-base/resources/c/css/global-fixed.css" rel="stylesheet"><!--<![endif]-->
-	<!-- End Styles -->
 
-</head>
+
+
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-47669118-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+

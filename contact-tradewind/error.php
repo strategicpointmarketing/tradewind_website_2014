@@ -1,7 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+
 <!-- Global Head -->
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
 
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	

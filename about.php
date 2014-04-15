@@ -1,6 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+<!-- Global Meta -->
+<?php include('views/partials/globalMeta.php'); ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Tradewind with TW window systems and Panoramah only offered in the USA</title>
+<meta name="description" content="North America's only custom wood window & door manufacturer designing minimal frames by Panoramah, engineered construction with minimal framed windows">
+<meta name="keywords" content="Minimal Framed Windows, minimal frame window, panoramah, panoramah in the USA, manufacture of minimal framed windows in USA">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
+<?php include('views/partials/globalHead.php'); ?>
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	

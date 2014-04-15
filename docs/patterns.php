@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 
+<?php include('../views/partials/globalMeta.php'); ?>
+
 <?php include('../views/partials/globalHead.php'); ?>
 
 <body>

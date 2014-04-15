@@ -1,6 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global Meta -->
+<?php include('views/partials/globalMeta.php'); ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Tradewind the only company in the USA offering Panoramah minimal frame</title>
+<meta name="description" content="Building pvc windows, wooden casements, wooden windows, minimal frame windows by Panoramah and much more.  Tradewind also carries TW window Systems.">
+<meta name="keywords" content="architectural home designs, design flexibility, custom wood windows, custom wood doors, architectural windows, contemporary wood windows, wood storefront windows, inswing casement windows, weight and chain windows, rustic windows, corner windows, wood window walls, impact doors, bifolding doors, bi-folding doors, opening glass walls, true divided lite, impact windows, Douglas Fir, mahogany windows, lift and slide doors, bronze clad windows, yellow cedar windows, french casement windows, historical windows, custom wood doors, hurricane tested windows, impact resistant windows, restoration glass">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
 <?php include('views/partials/globalHead.php'); ?>
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	

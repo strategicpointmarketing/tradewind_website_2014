@@ -1,6 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global Meta -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Custom woode All types, colors and styles of wood doors and windows.</title>
+<meta name="description" content="Tradewind with TW window systems offers custom wood windows, custom wood doors, architectural windows, contemporary wood doors and windows, wood storefront windows.">
+<meta name="keywords" content="custom wood windows, custom wood doors, architectural windows, contemporary wood windows, wood storefront windows, inswing casement windows, weight and chain windows, rustic windows, corner windows, wood window walls, architectural door, contemporary wood door, wood storefront door, inswing casement door, weight and chain door, rustic door">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
-<?php include('../views/partials/globalHead.php'); ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	

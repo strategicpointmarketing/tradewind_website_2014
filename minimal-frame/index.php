@@ -1,6 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global Meta -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Direct from Europe Panoramah minimal framed windows and doors.</title>
+<meta name="description" content="The newest engineering ideas to come out of Europe is minimal framed windows and doors. Created by Panoramah, Tradewind installs">
+<meta name="keywords" content="minimal frames, minimal framework, minimal frame window, minimal frame sliding doors, minimal frame aluminium windows, minimal frame patio doors, Minimal framed windows, glass walls, glass separators as walls, noise reduction glass walls, minimal frame doors and windows, newest ideas for glass in homes, ideas for windows with no frames, ideas for no frame on windows
+">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	

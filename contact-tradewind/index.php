@@ -1,6 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global Meta -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Call to learn more about panoramah in the USA.</title>
+<meta name="description" content="Call today for a free consultation and information about minimal framed windows.">
+<meta name="keywords" content="Tradewind distribution and panoramah.  USA made and sold minimal framed windows, based in New York">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
 <!-- End Global Head -->
+
+</head>
+
+</head>
 
 <body>
 	

@@ -1,6 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global Meta -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Tradewind Distribution</title>
+<meta name="description" content="">
+<meta name="keywords" content="aluminium window frame, aluminum frames, aluminium frame windows, aluminium framing system, aluminum frame window, aluminium frames for windows, aluminum window frames, windows aluminium frame, aluminium window frame profiles, aluminum framed windows, aluminium windows frames, window frames aluminum">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	

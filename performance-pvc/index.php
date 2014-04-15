@@ -1,6 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global Meta -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalMeta.php'; ?>
+<!-- End Global Meta -->
+
+
+<!-- Meta Tags -->
+<title>Tradewind Distribution</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<!-- End Meta Tags -->
+
+
 <!-- Global Head -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/views/partials/globalHead.php'; ?>
 <!-- End Global Head -->
+
+</head>
 
 <body>
 	
